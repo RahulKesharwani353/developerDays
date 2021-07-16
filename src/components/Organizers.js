@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
-import KUGLogo from '../images/KUG_logo_white_tranparent.png'
-import MozLogo from '../images/moxDurg.png'
-import DSClogo from '../images/dcslogo.png'
+import KUGLogo from '../assets/images/KUG_logo_white_tranparent.png'
+import MozLogo from '../assets/images/moxDurg.png'
+import DSClogo from '../assets/images/dcslogo.png'
 
 const Organizers = () => {
     return (

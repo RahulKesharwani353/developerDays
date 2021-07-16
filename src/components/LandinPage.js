@@ -1,5 +1,5 @@
 import React from 'react';
-import clipArt from '../images/ID3-2dobj.png'
+import clipArt from '../assets/images/ID3-2dobj.png'
 import { Row, Col ,Container} from 'react-bootstrap'
 
 const LandinPage = () => {

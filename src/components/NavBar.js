@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from '../images/logo.png'
+import logo from '../assets/images/logo.png'
 
 import '../App.css';
 import {Navbar, Nav, Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 const NavBar = () => {
     return (
         <Container>
@@ -12,7 +13,10 @@ const NavBar = () => {
   <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
   
       <Nav>
-      <Nav.Link href="/" active="true">Home</Nav.Link>
+      <Nav.Link  active="true">
+        <Link to="/">Home</Link>
+        {/* Use Link inside Navbar */}
+      </Nav.Link>
       <Nav.Link href="#AboutUs">About Us</Nav.Link>
       <Nav.Link href="#speakers">Speakers</Nav.Link>
       {/* <Nav.Link href="#sessions">Sessions</Nav.Link> */}

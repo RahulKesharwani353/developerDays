@@ -1,7 +1,7 @@
 import React from 'react';
-import android from '../images/android_track.svg';
-import ui from '../images/UI_track.svg';
-import web from '../images/Web_track.svg';
+import android from '../assets/images/android_track.svg';
+import ui from '../assets/images/UI_track.svg';
+import web from '../assets/images/Web_track.svg';
 import { Col, Container, Row } from 'react-bootstrap';
 
 const Structure = () => {

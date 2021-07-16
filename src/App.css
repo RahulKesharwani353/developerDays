@@ -63,7 +63,7 @@ h5{
 .struct-card1{
   width: 225px;
   height: 358px;
-  background: url('./images/grad1.svg');
+  background: url('./assets/images/grad1.svg');
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 10px;    
@@ -75,7 +75,7 @@ h5{
 .struct-card2{
   width: 225px;
   height: 358px;
-  background: url('./images/grad2.svg');
+  background: url('./assets/images/grad2.svg');
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 10px;   
@@ -87,7 +87,7 @@ h5{
 .struct-card3{
   width: 225px;
   height: 358px;
-  background: url('./images/grad3.svg');
+  background: url('./assets/images/grad3.svg');
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 10px;    
