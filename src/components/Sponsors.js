@@ -1,26 +1,36 @@
 import React from 'react';
-import { Container, Col } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 
+import s_css from '../components/css/sponsors.module.css'
+import sponsorsData from './data/sponsorsLogo'
+import gold from '../assets/images/gold.svg'
 const Sponsors = () => {
     return (
         <>
            <Container id="sponsors">
         <Col>
-            {/* <div className="sub-heading">Sponsors</div>
+            <div className="sub-heading">Sponsors</div>
             </Col>
             <Col>
             <div className="heading">This event was made Possible Thanks to our Sponsors</div>
-            </Col> */}
-            <div className="sub-heading"></div>
             </Col>
-            <Col>
-            <div className="heading">Our Sponsors</div>
-            </Col>
+            <br/>
+            <h4>Gold Sponsors<img src={gold} /></h4>
+            <br/>
+            <Row>
+            {
+                sponsorsData.map((elem)=>{
+                    const {images,ref} =elem;
+                    return(
+                        <Col lg={3} xs={6} md={3} className={s_css.sponsorsLogo}>
+                   <a href={ref} target="_blank" rel="noreferrer"><img src={images} alt=".xyz logo"/></a> 
+                </Col>
+                    )
+                })
+            }
+              
+            </Row>
 
-
-            <Col>
-            <h5 >Announcing Soon...</h5>
-            </Col>
         </Container>  
         </>
     );
