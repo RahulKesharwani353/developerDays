@@ -1,0 +1,8 @@
+.sponsorsLogo img{
+    width: 70%;
+  object-fit:contain;
+}
+.sponsorsLogo img:hover{
+    transform: scale(1.1);
+	transition: all 0.3s linear 0s;
+}

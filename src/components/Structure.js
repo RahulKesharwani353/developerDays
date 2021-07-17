@@ -33,7 +33,7 @@ const Structure = () => {
                     <div className="struct-card2">
                        <div className ="struct-cardContain">
                        <img src={ui} alt="mobile dev"/>
-                       <h4>UI/UX<br/>Desining</h4>
+                       <h4>UI/UX<br/>Designing</h4>
                        <p>Adobe XD, Figma</p>
                        <button><a href ="#Register" style={{textDecoration:'none', color:'white'}}>Register</a></button>
                        </div>
