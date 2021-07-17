@@ -14,7 +14,7 @@ const speakers = () => {
             <div className="sub-heading"></div>
             </Col>
             <Col>
-            <div className="heading">Our Speakers</div>
+            <div className="heading">Our Guest And Speakers</div>
             </Col>
 
 
