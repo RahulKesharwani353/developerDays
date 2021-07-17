@@ -3,6 +3,7 @@ import android from '../assets/images/android_track.svg';
 import ui from '../assets/images/UI_track.svg';
 import web from '../assets/images/Web_track.svg';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Structure = () => {
     return (
@@ -23,7 +24,7 @@ const Structure = () => {
                        <img src={web} alt="mobile dev"/>
                        <h4>Web<br></br>Development</h4>
                        <p>Full Stack</p>
-                       <button><a href ="#Register" style={{textDecoration:'none', color:'white'}}>Register</a></button>
+                       <button>  <Link to="/register" style={{color:'white', textDecoration:'none'}}>Register</Link></button>
                        </div>
 
                     </div>
@@ -35,7 +36,9 @@ const Structure = () => {
                        <img src={ui} alt="mobile dev"/>
                        <h4>UI/UX<br/>Designing</h4>
                        <p>Adobe XD, Figma</p>
-                       <button><a href ="#Register" style={{textDecoration:'none', color:'white'}}>Register</a></button>
+                       <button><a href ="#Register" style={{textDecoration:'none', color:'white'}}>
+                       <Link to="/register" style={{color:'white', textDecoration:'none'}}>Register</Link>
+                           </a></button>
                        </div>
 
                     </div>
@@ -47,7 +50,7 @@ const Structure = () => {
                        <img src={android} alt="mobile dev"/>
                        <h4>Android<br></br>Development</h4>
                        <p>Kotlin, Firebase</p>
-                       <button><a href ="#Register" style={{textDecoration:'none', color:'white'}}>Register</a></button>
+                       <button> <Link to="/register" style={{color:'white', textDecoration:'none'}}>Register</Link></button>
                        </div>
 
                     </div>

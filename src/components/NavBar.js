@@ -8,13 +8,13 @@ const NavBar = () => {
     return (
         <Container>
 <Navbar collapseOnSelect expand="lg" className="NavBar">
-  <Navbar.Brand href="#home"><img src={logo} alt="logo" id="navLogo"></img></Navbar.Brand>
+  <Navbar.Brand href="/"><img src={logo} alt="logo" id="navLogo"></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
   
       <Nav>
-      <Nav.Link  active="true">
-        <Link to="/">Home</Link>
+      <Nav.Link  active="true" >
+        <Link to="/" className="nav-item">Home</Link>
         {/* Use Link inside Navbar */}
       </Nav.Link>
       <Nav.Link href="#AboutUs">About Us</Nav.Link>
@@ -23,7 +23,8 @@ const NavBar = () => {
       {/* <Nav.Link href="#chalanges">Challenges</Nav.Link>
       <Nav.Link href="#Leader">LeaderBoard</Nav.Link> */}
       <Nav.Link href="#sponsors">Sponsors</Nav.Link>
-      <Nav.Link  href="#Register">Register</Nav.Link>
+      <Nav.Link  >
+      <Link to="/register" className="nav-item">Register</Link></Nav.Link>
       
 
     </Nav>
