@@ -10,7 +10,8 @@ const footer = () => {
       <div className="col-lg-6 text-md-center text-sm-center text-center">
         <div className="footer-left">
 
-          <img src={logo} alt="Developer Days" style={{width:'200px' }} />
+<a href ="/home"><img src={logo} alt="Developer Days" style={{width:'200px' }}  /></a>
+          
     
           <br/><br/>
       
@@ -25,7 +26,7 @@ const footer = () => {
 
       <form action="#" method="post">
 
-        <a href="mailto:developerdayshelp@gmail.com"> <input type="text" name="email" placeholder="Email"/></a>
+        <a href="mailto:support@developerdays.tech"> <input type="text" name="email" placeholder="Email"/></a>
 
 
       </form>
@@ -33,10 +34,10 @@ const footer = () => {
       <div className="footer-icons">
 
 
-        <a href="https://www.instagram.com/bitddsc" target="_blank"><i className="fa fa-instagram"></i></a>
-        <a href="https://twitter.com/BitdDsc" target="_blank"><i className="fa fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/company/developer-student-community-bitd/" target="_blank"><i className="fa fa-linkedin"></i></a>
-        <a href="https://github.com/DSCBITDurg"><i className="fa fa-github"></i></a>
+        <a href="https://www.instagram.com/devStuCom" target="_blank"><i className="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/devStuCom" target="_blank"><i className="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/devstucom/mycompany/" target="_blank"><i className="fa fa-linkedin"></i></a>
+        <a href="https://github.com/devStuCom"><i className="fa fa-github"></i></a>
         <a href="https://www.youtube.com/channel/UCT6bau44YmuFM3Qu_de6W_w" target="_blank"><i className="fa fa-youtube"></i></a>
 
       </div>

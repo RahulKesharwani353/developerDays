@@ -17,12 +17,12 @@ const NavBar = () => {
         <Link to="/" className="nav-item">Home</Link>
         {/* Use Link inside Navbar */}
       </Nav.Link>
-      <Nav.Link href="#AboutUs">About Us</Nav.Link>
-      <Nav.Link href="#speakers">Speakers</Nav.Link>
+      <Nav.Link href="/home">About Us</Nav.Link>
+      <Nav.Link href="/home#speakers">Speakers</Nav.Link>
       {/* <Nav.Link href="#sessions">Sessions</Nav.Link> */}
       {/* <Nav.Link href="#chalanges">Challenges</Nav.Link>
       <Nav.Link href="#Leader">LeaderBoard</Nav.Link> */}
-      <Nav.Link href="#sponsors">Sponsors</Nav.Link>
+      <Nav.Link href="/home#sponsors">Sponsors</Nav.Link>
       <Nav.Link  >
       <Link to="/register" className="nav-item">Register</Link></Nav.Link>
       

@@ -10,7 +10,7 @@ const logos=[
         ref: "https://replit.com/"
     },
     {
-        images: require('../../assets/images/sponsorslogo/karo-verify.png').default,
+        images: require('../../assets/images/sponsorslogo/karo-verify.jpg').default,
         ref: "https://karoverify.xyz/"
     },
 
