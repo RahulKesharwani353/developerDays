@@ -15,6 +15,7 @@ function App() {
       <NavBar/>
         <Switch>
           <Route path='/' exact component={Home}/>
+          <Route path='/home' exact component={Home}/>
           <Route path='/register' exact component={registrationTypeForm}/>
         </Switch>
      </Router>

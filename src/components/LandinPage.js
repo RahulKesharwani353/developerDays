@@ -13,7 +13,7 @@ const LandinPage = () => {
                 <div className="landingHeading text-left">
                  <h1>Developer<br/>Days</h1>
                  <p>
-                 A Collaborative boot camp brought to you by Developer Student Community, Mozilla Community and KUG Durg.
+                 It is a 5-week long event. It consists of three tracks that are Web Development, Android Development, and UI/UX Design. The event consists of various sessions and challenges. Various swags and prizes will be awarded to the winners and participants.
                  </p>
                 </div>  
                 </Col>
