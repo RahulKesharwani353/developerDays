@@ -1,0 +1,84 @@
+.Hero{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.HeroRight{
+    display: flex;
+    justify-content: flex-end;
+}
+.HeroRight img{
+    height: 260px;
+}
+.HeroLeft{
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    color: rgb(240, 240, 240);
+}
+.HeroLeft h3{
+    color: white;
+    font-style: bold;
+}
+.HeroLeft button{
+    border-radius: 40px;
+  font-weight: bold;
+  padding: .7em 2em;
+  background: rgba(253, 253, 253, 0.233);
+  color: white;
+  border: none;
+}
+.HeroLeft button p{
+    font-size: 9px;
+    font-style: normal;
+    color: rgb(221, 216, 216);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navItem{
+    color: rgba(112,112,112,1);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.skillBox{
+
+    padding: 20px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgba(112,112,112,1);
+    border-style: solid;
+}
+.skillBox button{
+    background-color: #D9E1F2;
+    border: none;
+    border-radius: 40px;
+    padding: .2em 2.5em;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.weekBox{
+    text-align: center;
+}
+.weekNo{
+    font-weight: 400;
+    font-size: 100px;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .HeroRight img{
+        margin-top: 30px;
+        height: 180px;
+    }
+    .HeroRight{
+        justify-content: center;
+
+    }
+    .HeroLeft{
+        text-align: center;
+    }
+  }
