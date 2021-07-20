@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row,Col } from 'react-bootstrap';
 import styl from '../components/css/abouttrack.module.css'
-import gold from '../assets/images/gold.svg'
+import session from '../assets/images/session_icon.svg'
+import challanges from '../assets/images/challanges_icon.svg'
 const weekDetails = () => {
     return (
         <div>
@@ -13,15 +14,29 @@ const weekDetails = () => {
             <div className="heading">What you will learn from this course</div>
             </Col>  
 
-            <Row>
+            <Row className={styl.weekContainer}>
               <Col  lg={2} className={styl.weekBox}>
               <div style={{fontSize:'15px'}}>WEEK</div>
               <div className={styl.weekNo}>1</div>
               </Col>
               <Col>
-                <div style={{display:'flex'}}><img src={gold}/>
+                <div>
+                <div style={{display:'flex'}}><img src={session} alt="date"/>
                 <h3>Baate badei badi</h3></div>
-                <p>orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctu</p>
+                <p>orem ipsum dolor sit amet, Stet clita kasd gubergren, ndolor sit amet, csed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctu</p>
+                </div>
+
+                <div>
+                <div style={{display:'flex'}}><img src={session} alt="date"/>
+                <h3>Baate badei badi</h3></div>
+                <p>orem ipsum dolor sit amet, Stet clita kasd gubergren, ndolor sit amet, csed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctu</p>
+                </div>
+
+                <div>
+                <div style={{display:'flex'}}><img src={challanges} alt="date"/>
+                <h3>Challenge</h3></div>
+                <p>orem ipsum dolor sit amet, Stet clita kasd gubergren, ndolor sit amet, csed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctu</p>
+                </div>
               </Col>
             </Row>
         </Container> 

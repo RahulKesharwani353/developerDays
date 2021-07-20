@@ -58,6 +58,16 @@
     margin-right: 20px;
     margin-bottom: 15px;
 }
+.weekContainer{
+    margin-top: 50px;
+}
+.weekContainer img{
+    margin-right: 20px;
+    width: 45px;
+}
+.weekContainer p{
+    margin-left: 65px;
+}
 .weekBox{
     text-align: center;
 }
