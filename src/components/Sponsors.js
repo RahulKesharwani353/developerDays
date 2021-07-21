@@ -5,6 +5,8 @@ import s_css from '../components/css/sponsors.module.css'
 import sponsorsData from './data/sponsorsLogo'
 import gold from '../assets/images/gold.svg'
 const Sponsors = () => {
+
+    console.log(sponsorsData)
     return (
         <>
            <Container id="sponsors">
@@ -19,11 +21,11 @@ const Sponsors = () => {
             <br/>
             <Row>
             {
-                sponsorsData.map((elem)=>{
+                sponsorsData.map((elem,index)=>{
                     const {images,ref} =elem;
                     return(
-                        <Col lg={3} xs={6} md={3} className={s_css.sponsorsLogo}>
-                   <a href={ref} target="_blank" rel="noreferrer"><img src={images} alt=".xyz logo"/></a> 
+                        <Col lg={3} xs={6} md={3} className={s_css.sponsorsLogo} key={index}>
+                   <a href={ref} target="_blank" rel="noreferrer"><img src={images} alt="sponsor logo"/></a> 
                 </Col>
                     )
                 })

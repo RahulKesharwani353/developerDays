@@ -9,16 +9,18 @@ import NavBar from './components/NavBar';
 import registrationTypeForm from './pages/registrationTypeForm';
 import Footer from './components/footer'
 import AboutTrack from './pages/AboutTrack';
+import ScrollToTop from './components/scrollToTop';
 function App() {
   return (
     <div className="App" >
       <Router>
       <NavBar/>
+      <ScrollToTop />
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/home' exact component={Home}/>
           <Route path='/register' exact component={registrationTypeForm}/>
-          <Route path='/UI' exact component={AboutTrack}/>
+          <Route path='/track/:track' exact component={AboutTrack}/>
         </Switch>
      </Router>
      <Footer />
