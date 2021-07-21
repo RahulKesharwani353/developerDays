@@ -18,6 +18,7 @@ h5{
 }
 #navLogo{
   height: 80px;
+  margin-left: -18%;
 }
 .nav-item{
   color: rgba(112,112,112,1);

@@ -6,10 +6,21 @@ import Speakers from '../components/speakers'
 import Hero from '../components/Hero';
 import TrackDetail from '../components/TrackDetail';
 import WeekDetails from '../components/weekDetails';
-const AboutTrack = () => {
+import { withRouter } from 'react-router';
+import Track from '../components/data/aboutTrackData';
+
+
+
+// function getIndex(props) {
+//   return this.props.match.params.track
+// }
+
+const AboutTrack = (props) => {
+
+  var index = props.match.params.track
     return (
       <>
-      <Hero />
+      <Hero title={Track[index].title} />
         <Container>
             <Row>
             <Nav activeKey="/home">
@@ -28,11 +39,11 @@ const AboutTrack = () => {
             </Row>
         </Container>
         <hr />
-        <TrackDetail/>
+        <TrackDetail SkillData={Track[index].skills_data}  />
         <br/>
         <Container>
             <h4>Offered By</h4>
-            <img src={dsc} style={{height:'80px'}} alt="dsc"/>
+            <img src={Track[index].org} style={{height:'80px'}} alt="dsc"/>
         </Container>
         <Speakers/>
         <hr/>
@@ -41,4 +52,4 @@ const AboutTrack = () => {
     );
 };
 
-export default AboutTrack;
+export default withRouter(AboutTrack);

@@ -21,10 +21,10 @@ const Structure = () => {
                     <Col style={{display: 'flex', justifyContent: 'center'}}>
                     <div className="struct-card1">
                        <div className ="struct-cardContain">
-                       <img src={web} alt="mobile dev"/>
+                       <img src={web} alt="WEB dev"/>
                        <h4>Web<br></br>Development</h4>
                        <p>Full Stack</p>
-                       <button>  <Link to="/register" style={{color:'white', textDecoration:'none'}}>Register</Link></button>
+                       <button>  <Link to="/track/0" style={{color:'white', textDecoration:'none'}}>Learn More</Link></button>
                        </div>
 
                     </div>
@@ -33,11 +33,11 @@ const Structure = () => {
                     <Col style={{display: 'flex', justifyContent: 'center'}}>
                     <div className="struct-card2">
                        <div className ="struct-cardContain">
-                       <img src={ui} alt="mobile dev"/>
+                       <img src={ui} alt="UIUX dev"/>
                        <h4>UI/UX<br/>Designing</h4>
                        <p>Adobe XD, Figma</p>
                        <button><a href ="#Register" style={{textDecoration:'none', color:'white'}}>
-                       <Link to="/register" style={{color:'white', textDecoration:'none'}}>Register</Link>
+                       <Link to="/track/1" style={{color:'white', textDecoration:'none'}}>Learn More</Link>
                            </a></button>
                        </div>
 
@@ -50,7 +50,7 @@ const Structure = () => {
                        <img src={android} alt="mobile dev"/>
                        <h4>Android<br></br>Development</h4>
                        <p>Kotlin, Firebase</p>
-                       <button> <Link to="/register" style={{color:'white', textDecoration:'none'}}>Register</Link></button>
+                       <button> <Link to="/track/2" style={{color:'white', textDecoration:'none'}}>Learn More</Link></button>
                        </div>
 
                     </div>
