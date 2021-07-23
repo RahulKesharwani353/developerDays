@@ -1,0 +1,20 @@
+.swagBox{
+    width: 100%;
+    max-width: 250px    ;
+    height: 250px;
+    border-color: blueviolet;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+
+}
+.swagBox h5{
+    font-weight: 700;
+    font-size: 23px;
+}
+.swagBox p{
+    font-size: 12px;
+}

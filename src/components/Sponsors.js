@@ -17,7 +17,7 @@ const Sponsors = () => {
             <div className="heading">This event was made Possible Thanks to our Sponsors</div>
             </Col>
             <br/>
-            <h4>Gold Sponsors<img src={gold} /></h4>
+            <h4>Gold Sponsors<img src={gold} alt="gold" /></h4>
             <br/>
             <Row>
             {
@@ -32,6 +32,9 @@ const Sponsors = () => {
             }
               
             </Row>
+            <Col style={{textAlign:'center', marginTop:'20px'}}>
+            <button className={s_css.sponsourUs} ><a href="mailto:sponsorship@developerdays.tech">Sponsor Us</a> </button>
+            </Col>
 
         </Container>  
         </>

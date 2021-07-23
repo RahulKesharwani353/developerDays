@@ -1,7 +1,6 @@
 import React from 'react';
 import {  Container, Nav, Row } from 'react-bootstrap';
 import styl from '../components/css/abouttrack.module.css'
-import dsc from '../assets/images/dcslogo.png'
 import Speakers from '../components/speakers'
 import Hero from '../components/Hero';
 import TrackDetail from '../components/TrackDetail';
@@ -20,26 +19,26 @@ const AboutTrack = (props) => {
   var index = props.match.params.track
     return (
       <>
-      <Hero title={Track[index].title} />
+      <Hero title={Track[index].title} svg= {Track[index].svgSrc} offerBy = {Track[index].offeredBy} bgColor = {Track[index].bgColor}/>
         <Container>
             <Row>
             <Nav activeKey="/home">
             <Nav.Item>
-              <Nav.Link href="/" className={styl.navItem}>
+              <Nav.Link href="#about" className={styl.navItem}>
                 About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className={styl.navItem}>Instructors</Nav.Link>
+              <Nav.Link href="#inst" className={styl.navItem}>Instructors</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className={styl.navItem}>Syllabus</Nav.Link>
+              <Nav.Link className={styl.navItem}>Sessions</Nav.Link>
             </Nav.Item>
           </Nav>
             </Row>
         </Container>
         <hr />
-        <TrackDetail SkillData={Track[index].skills_data}  />
+        <TrackDetail SkillData={Track[index].skills_data} about={Track[index].about} />
         <br/>
         <Container>
             <h4>Offered By</h4>
@@ -47,7 +46,7 @@ const AboutTrack = (props) => {
         </Container>
         <Speakers/>
         <hr/>
-        <WeekDetails/>
+        <WeekDetails SessionsDetail = {Track[index].SessionsDetail}/>
       </>
     );
 };

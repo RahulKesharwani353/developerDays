@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../assets/images/logo.png'
 
 import '../App.css';
-import {Navbar, Nav, Container } from 'react-bootstrap'
+import {Navbar, Nav, Container,NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 const NavBar = () => {
     return (
@@ -17,8 +17,14 @@ const NavBar = () => {
         <Link to="/" className="nav-item">Home</Link>
         {/* Use Link inside Navbar */}
       </Nav.Link>
-      <Nav.Link href="/home">About Us</Nav.Link>
-      <Nav.Link href="/home#speakers">Speakers</Nav.Link>
+      {/* <Nav.Link href="/home">About Us</Nav.Link> */}
+     
+      <NavDropdown title="About Tracks" id="collasible-nav-dropdown">
+        <NavDropdown.Item  href="/track/0">Web Development</NavDropdown.Item>
+        <NavDropdown.Item href="/track/1">UI/UX Designing</NavDropdown.Item>
+        <NavDropdown.Item href="/track/2">Android Development</NavDropdown.Item>
+      </NavDropdown>
+      <Nav.Link href="/home#Swags">Swags</Nav.Link>
       {/* <Nav.Link href="#sessions">Sessions</Nav.Link> */}
       {/* <Nav.Link href="#chalanges">Challenges</Nav.Link>
       <Nav.Link href="#Leader">LeaderBoard</Nav.Link> */}

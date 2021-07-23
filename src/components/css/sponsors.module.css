@@ -7,3 +7,24 @@
     transform: scale(1.1);
 	transition: all 0.3s linear 0s;
 }
+.sponsourUs{
+	border-radius: 40px;
+	font-weight: bold;
+  color: rgba(242,246,255,1);
+	padding: .7em 2em;
+	background: rgb(239,75,121);
+background: linear-gradient(202deg, #1BCCE1  0%, #471069 70%);
+border: none;
+width:200px;
+position: relative;
+top: 25px;
+transition: ease .6s ;
+}
+.sponsourUs:hover{
+	box-shadow: inset 200px 0 0 0 #471069;
+
+}
+.sponsourUs a{
+  text-decoration: none;
+  color: rgba(242,246,255,1);
+}
