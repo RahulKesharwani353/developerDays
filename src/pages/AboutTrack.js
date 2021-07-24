@@ -29,24 +29,29 @@ const AboutTrack = (props) => {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#inst" className={styl.navItem}>Instructors</Nav.Link>
+              <Nav.Link href="#speakers" className={styl.navItem}>Speakers</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className={styl.navItem}>Sessions</Nav.Link>
+              <Nav.Link href = "#sessions"className={styl.navItem}>Sessions</Nav.Link>
             </Nav.Item>
           </Nav>
             </Row>
         </Container>
         <hr />
+        <div id="about">
         <TrackDetail SkillData={Track[index].skills_data} about={Track[index].about} />
+        </div>
         <br/>
         <Container>
             <h4>Offered By</h4>
             <img src={Track[index].org} style={{height:'80px'}} alt="dsc"/>
         </Container>
+        <div id="speakers">
         <Speakers/>
+        </div>
         <hr/>
-        <WeekDetails SessionsDetail = {Track[index].SessionsDetail}/>
+        <div id="sessions"><WeekDetails SessionsDetail = {Track[index].SessionsDetail}/></div>
+    
       </>
     );
 };

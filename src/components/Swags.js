@@ -18,7 +18,7 @@ const Swags = () => {
                     swags.map((elem,index)=>{
                         const {title,subTitle,desc,border} =elem;
                         return(
-                            <Col lg={4} md={4} style={{display: 'flex', justifyContent: 'center'}}>
+                            <Col lg={4} md={4} style={{display: 'flex', justifyContent: 'center'}} key={index}>
                             <div className={styl.swagBox} style={{borderColor: border}}>
                              <h5>{title}</h5>
                              <br/>

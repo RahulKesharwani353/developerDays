@@ -25,6 +25,9 @@ h5{
   text-decoration: none;
 
 }
+.nav-item:hover{
+  text-decoration: none!important;
+}
 .landingClipArt{
   height: 600px;
   align-self: flex-end;

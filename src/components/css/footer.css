@@ -69,8 +69,13 @@
 	line-height: 35px;
 	margin-right: 3px;
 	margin-bottom: 5px;
+	margin: 8px;
 }
 
+.footer-icons img{
+	height: 30px;
+	width: 30px;
+}
 /* Footer Right */
 
 .footer-distributed .footer-right {

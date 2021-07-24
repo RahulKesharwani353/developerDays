@@ -13,7 +13,7 @@ const Organizers = () => {
             <div className="sub-heading" id= "Speakers">Organized By</div>
             </Col>
             <Col>
-            <div className="heading">With the collabration of</div>
+            <div className="heading">With the collaboration of</div>
             </Col>
 
             <Row>

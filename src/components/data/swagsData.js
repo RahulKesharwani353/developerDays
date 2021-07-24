@@ -1,13 +1,13 @@
 const Swags=[{
-    title:"Swags For Top Developer",
+    title:"Swags For Top Developers",
     subTitle: "Special Swag Kit",
     desc: "Special Swag kit for the top 10 hackers from each track",
     border: "#471069"
 },
 {
     title:"Swags For Active Participantes",
-    subTitle: "Swags Mail",
-    desc: "Every active participated developers will get free sticker pack delivered",
+    subTitle: "Swags Letter",
+    desc: "Top active participated developers will get free stickers pack delivered",
     border: "#2C8BF7"
 },
 {

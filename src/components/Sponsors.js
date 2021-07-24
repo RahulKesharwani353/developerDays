@@ -4,6 +4,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 import s_css from '../components/css/sponsors.module.css'
 import sponsorsData from './data/sponsorsLogo'
 import gold from '../assets/images/gold.svg'
+import bronze from '../assets/images/bronze.svg'
 const Sponsors = () => {
 
     console.log(sponsorsData)
@@ -21,7 +22,23 @@ const Sponsors = () => {
             <br/>
             <Row>
             {
-                sponsorsData.map((elem,index)=>{
+                sponsorsData[0].gold.map((elem,index)=>{
+                    const {images,ref} =elem;
+                    return(
+                        <Col lg={3} xs={6} md={3} className={s_css.sponsorsLogo} key={index}>
+                   <a href={ref} target="_blank" rel="noreferrer"><img src={images} alt="sponsor logo"/></a> 
+                </Col>
+                    )
+                })
+            }
+              
+            </Row>
+            <br/>
+            <br/>
+            <h4>Bronze Sponsors<img src={bronze} alt="gold" /></h4>
+            <Row>
+            {
+                sponsorsData[0].bronze.map((elem,index)=>{
                     const {images,ref} =elem;
                     return(
                         <Col lg={3} xs={6} md={3} className={s_css.sponsorsLogo} key={index}>
