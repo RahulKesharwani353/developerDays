@@ -25,6 +25,9 @@ h5{
   text-decoration: none;
 
 }
+.nav-item:hover{
+  text-decoration: none!important;
+}
 .landingClipArt{
   height: 600px;
   align-self: flex-end;
@@ -113,7 +116,7 @@ h5{
   width: 140px;
 }
 .struct-cardContain h4{
-  font-style: bold;
+  font-weight: bold;
   text-align: center;
   margin-top: 20px;
 }

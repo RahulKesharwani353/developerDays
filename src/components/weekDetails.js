@@ -3,7 +3,8 @@ import { Container, Row,Col } from 'react-bootstrap';
 import styl from '../components/css/abouttrack.module.css'
 import session from '../assets/images/session_icon.svg'
 import challanges from '../assets/images/challanges_icon.svg'
-const weekDetails = () => {
+const weekDetails = (props) => {
+  console.log(props.SessionsDetail)
     return (
         <div>
                    <Container>
@@ -12,33 +13,44 @@ const weekDetails = () => {
             </Col>
          <Col>
             <div className="heading">What you will learn from this course</div>
-            </Col>  
+            </Col> 
+            
+            {
+          props.SessionsDetail.map(
+            (elem,index)=>{
+                const {session_1_head,session_1_detail, session_2_head, session_2_detail,challange_head, challange_detail} =elem;
+                return (
+                  
+            <Row className={styl.weekContainer} key={index}>
+            <Col  lg={2} className={styl.weekBox}>
+            <div style={{fontSize:'15px'}}>WEEK</div>
+            <div className={styl.weekNo}>{index+1}</div>
+            </Col>
+            <Col>
+              <div>
+              <div style={{display:'flex'}}><img src={session} alt="date"/>
+              <h3>{session_1_head}</h3></div>
+              <p>{session_1_detail}</p>
+              </div>
 
-            <Row className={styl.weekContainer}>
-              <Col  lg={2} className={styl.weekBox}>
-              <div style={{fontSize:'15px'}}>WEEK</div>
-              <div className={styl.weekNo}>1</div>
-              </Col>
-              <Col>
-                <div>
-                <div style={{display:'flex'}}><img src={session} alt="date"/>
-                <h3>Baate badei badi</h3></div>
-                <p>orem ipsum dolor sit amet, Stet clita kasd gubergren, ndolor sit amet, csed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctu</p>
-                </div>
+              <div>
+              <div style={{display:'flex'}}><img src={session} alt="date"/>
+              <h3>{session_2_head}</h3></div>
+              <p>{session_2_detail}</p>
+              </div>
 
-                <div>
-                <div style={{display:'flex'}}><img src={session} alt="date"/>
-                <h3>Baate badei badi</h3></div>
-                <p>orem ipsum dolor sit amet, Stet clita kasd gubergren, ndolor sit amet, csed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctu</p>
-                </div>
+              <div>
+              <div style={{display:'flex'}}><img src={challanges} alt="date"/>
+              <h3>{challange_head}</h3></div>
+              <p>{challange_detail}</p>
+              </div>
+            </Col>
+          </Row>
+                )
+            }
+          )
+      } 
 
-                <div>
-                <div style={{display:'flex'}}><img src={challanges} alt="date"/>
-                <h3>Challenge</h3></div>
-                <p>orem ipsum dolor sit amet, Stet clita kasd gubergren, ndolor sit amet, csed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctu</p>
-                </div>
-              </Col>
-            </Row>
         </Container> 
         </div>
     );

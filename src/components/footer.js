@@ -1,6 +1,9 @@
 import React from 'react';
 import '../components/css/footer.css';
 import logo from '../assets/images/logo-white.png';
+import moz_sq from '../assets/images/moz_sq.png'
+import dsc_sq from '../assets/images/dsc_sq.svg'
+import kug_sq from '../assets/images/kug_sq (1).svg'
 
 const footer = () => {
     return (
@@ -34,11 +37,10 @@ const footer = () => {
       <div className="footer-icons">
 
 
-        <a href="https://www.instagram.com/devStuCom" target="_blank"><i className="fa fa-instagram"></i></a>
-        <a href="https://twitter.com/devStuCom" target="_blank"><i className="fa fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/company/devstucom/mycompany/" target="_blank"><i className="fa fa-linkedin"></i></a>
-        <a href="https://github.com/devStuCom"><i className="fa fa-github"></i></a>
-        <a href="https://www.youtube.com/channel/UCT6bau44YmuFM3Qu_de6W_w" target="_blank"><i className="fa fa-youtube"></i></a>
+        <a href="https://linktr.ee/mozilladurg" target="_blank"><img src ={moz_sq} alt= "moz" /></a>
+        <a href="https://linktr.ee/kugdurg/" target="_blank"><img src ={kug_sq} alt= "KUG" /></a>
+        <a href="https://linktr.ee/developer_student_community" target="_blank"><img src ={dsc_sq} alt= "DSC" /></a>
+      
 
       </div>
     </div>
