@@ -183,7 +183,7 @@ const Track=[
   {
       session_1_head: "Major Project- Backend [Part I]",
       session_1_detail: "Lets Make our app more dynamic, we will integrate Authentication System, Notification system and Connect it with Database using Firebase.",
-      session_2_head: "Major Project- Frontend [Part II]",
+      session_2_head: "Major Project- Backend [Part II]",
       session_2_detail: "Let's us Invent with purpose and wrap-up all whole project, and make it as ready to deploy.",
       challange_head: "Challenges",
       challange_detail: "Available Soon!"
@@ -191,7 +191,7 @@ const Track=[
   {
       session_1_head: "Bonus Sessions ",
       session_1_detail: "We have special surprise sessions for You.",
-      session_2_head: "Bonus Session",
+      session_2_head: "Bonus Sessions",
       session_2_detail: "Detail will available Soon",
       challange_head: "Challenges",
       challange_detail: "Available Soon!"

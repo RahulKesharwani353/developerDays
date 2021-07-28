@@ -1,0 +1,54 @@
+
+.float{
+    padding-right: 20px;
+    padding-left: 20px;
+	position:fixed;
+	width:170px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:rgb(129, 20, 255);
+	color:#FFF;
+	border-radius:50px;
+    display: flex;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 5;
+}
+.float p{
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.float:hover{
+    color: white;
+    text-decoration: none;
+    transform: scale(1.1);
+	transition: all 0.3s linear 0s;
+}
+
+.float i{
+    margin-top:auto;
+    margin-bottom:auto;
+    font-size:26px; 
+}
+
+@media (max-width: 780px) {
+    .float{
+        padding-right: 20px;
+        padding-left: 20px;
+        position:fixed;
+        width:70px;
+        height:70px;
+        right: 20px;
+        bottom: 20px;
+    }
+    .float p{
+        visibility: hidden;
+    }
+    .float i{
+        font-size: 35px;
+    }
+}

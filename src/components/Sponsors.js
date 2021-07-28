@@ -5,6 +5,7 @@ import s_css from '../components/css/sponsors.module.css'
 import sponsorsData from './data/sponsorsLogo'
 import gold from '../assets/images/gold.svg'
 import bronze from '../assets/images/bronze.svg'
+import diamond from '../assets/images/diamond.77df4af.svg'
 const Sponsors = () => {
 
     console.log(sponsorsData)
@@ -18,8 +19,39 @@ const Sponsors = () => {
             <div className="heading">This event was made Possible Thanks to our Sponsors</div>
             </Col>
             <br/>
-            <h4>Gold Sponsors<img src={gold} alt="gold" /></h4>
+            <h4>Diamond Sponsors<img src={diamond} alt="gold" /></h4>
+            <Row>
+            {
+                sponsorsData[0].diamond.map((elem,index)=>{
+                    const {images,ref} =elem;
+                    return(
+                        <Col lg={3} xs={6} md={3} className={s_css.sponsorsLogo} key={index}>
+                   <a href={ref} target="_blank" rel="noreferrer"><img src={images} alt="sponsor logo"/></a> 
+                </Col>
+                    )
+                })
+            }
+              
+            </Row>
             <br/>
+            <br/>
+            <h4>Authentication Partner🤝</h4>
+            <Row>
+            {
+                sponsorsData[0].auth.map((elem,index)=>{
+                    const {images,ref} =elem;
+                    return(
+                        <Col lg={3} xs={6} md={3} className={s_css.sponsorsLogo} key={index}>
+                   <a href={ref} target="_blank" rel="noreferrer"><img src={images} alt="sponsor logo"/></a> 
+                </Col>
+                    )
+                })
+            }
+              
+            </Row>
+            <br/>
+            <br/>
+            <h4>Gold Sponsors<img src={gold} alt="gold" /></h4>
             <Row>
             {
                 sponsorsData[0].gold.map((elem,index)=>{

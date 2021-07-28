@@ -5,7 +5,16 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Hero = (props) => {
 
-  console.log(props.bgColor)
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
 
   return (
     <>
@@ -28,6 +37,12 @@ const Hero = (props) => {
                   <p>Starting From 1 Aug</p>
                 </a>
               </button>
+              {/* <div 
+	className="apply-button" 
+	data-hackathon-slug="Developerdays" 
+	data-button-theme="dark-inverted"
+	style={{height: '44px', width: '60%'}}
+></div> */}
             </Col>
             <Col className={styl.HeroRight}>
               <img src={props.svg} alt="svg" />

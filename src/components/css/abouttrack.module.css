@@ -91,4 +91,7 @@
     .HeroLeft{
         text-align: center;
     }
+    .weekContainer h3{
+        font-size: 25px;
+    }
   }

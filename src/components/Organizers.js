@@ -17,14 +17,20 @@ const Organizers = () => {
             </Col>
 
             <Row>
-                <Col xs ={12} md={4} className="organizer_cont">
+                <Col xs ={12} md={4} >
+                    <a href="https://discord.gg/KwRbYAVCeP" target="_blank" rel="noreferrer" className="organizer_cont">
                     <img src={MozLogo} alt="MOZ DURG"/>
+                    </a>
                 </Col>
-                <Col xs ={12} md={4} className="organizer_cont">
+                <Col xs ={12} md={4}>
+                <a href="https://discord.gg/wbJc5m7hWN" target="_blank" rel="noreferrer" className="organizer_cont" >
                     <img src={KUGLogo} alt="MOZ DURG"/>
+                    </a>
                 </Col>
-                <Col xs ={12} md={4} className="organizer_cont">
+                <Col xs ={12} md={4} >
+                <a href="https://discord.gg/26ewkaV" target="_blank" rel="noreferrer" className="organizer_cont" style={{marginTop:'25px'}} >
                     <img src={DSClogo} alt="MOZ DURG"/>
+                    </a>
                 </Col>
             </Row>
             
