@@ -37,7 +37,7 @@ const logos=[
         }
         ,
         {
-            images: require('../../assets/images/sponsorslogo/46463_Script Foundation_Logo_RD_01.webp').default,
+            images: require('../../assets/images/sponsorslogo/script.jpg').default,
             ref: "https://www.scriptindia.org/"
         }],
 
@@ -48,6 +48,10 @@ const logos=[
         {
             images: require('../../assets/images/sponsorslogo/balsamiq-logo-screen.svg').default,
             ref: "https://balsamiq.com/"
+        },
+        {
+            images: require('../../assets/images/sponsorslogo/SkillShip-FoundationBlack.png').default,
+            ref: "https://skillshipfoundation.com/"
         }]
     }
 

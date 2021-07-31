@@ -28,7 +28,7 @@ const Hero = (props) => {
             <Col className={styl.HeroLeft} lg={6} md={6} xs={12}>
               <h3 style={{ fontWeight: "bold" }}>{props.title}</h3>
               <p>{props.offerBy}</p>
-              <button>
+              {/* <button>
                 <a
                   href="/register"
                   style={{ textDecoration: "none", color: "white" }}
@@ -36,13 +36,14 @@ const Hero = (props) => {
                   Register For Free
                   <p>Starting From 1 Aug</p>
                 </a>
-              </button>
-              {/* <div 
+              </button> */} 
+              <div 
 	className="apply-button" 
-	data-hackathon-slug="Developerdays" 
+	data-hackathon-slug="developerdays" 
 	data-button-theme="dark-inverted"
-	style={{height: '44px', width: '60%'}}
-></div> */}
+  style={{width:'280px'}}
+></div>
+<p>strating from 1st August, 2021</p>
             </Col>
             <Col className={styl.HeroRight}>
               <img src={props.svg} alt="svg" />
