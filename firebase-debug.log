@@ -1,0 +1,62 @@
+[debug] [2021-08-06T19:26:29.014Z] ----------------------------------------------------------------------
+[debug] [2021-08-06T19:26:29.016Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\rahul\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-06T19:26:29.016Z] CLI Version:   9.16.0
+[debug] [2021-08-06T19:26:29.017Z] Platform:      win32
+[debug] [2021-08-06T19:26:29.017Z] Node Version:  v14.17.0
+[debug] [2021-08-06T19:26:29.017Z] Time:          Sat Aug 07 2021 00:56:29 GMT+0530 (India Standard Time)
+[debug] [2021-08-06T19:26:29.017Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-06T19:26:29.020Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-08-06T19:26:29.081Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-06T19:26:29.081Z] > authorizing via signed-in user (developerdayshelp@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Git Repo\developer_days
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2021-08-06T19:26:30.415Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-08-06T19:26:30.415Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using developerdays. 
+[debug] [2021-08-06T19:26:41.472Z] > refreshing access token with scopes: []
+[debug] [2021-08-06T19:26:41.473Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-06T19:26:42.053Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Fri, 06 Aug 2021 19:26:42 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-06T19:26:42.061Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/developerdays [none]
+[debug] [2021-08-06T19:26:43.145Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/developerdays 200
+[debug] [2021-08-06T19:26:43.145Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/developerdays {"projectId":"developerdays","projectNumber":"802126017702","displayName":"developerDays","name":"projects/developerdays","resources":{"hostingSite":"developerdays"},"state":"ACTIVE"}
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at E:\Git Repo\developer_days 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=959019987&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-08-06T19:26:43.966Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"f3177ee1a5e5997bb904","redirect_uri":"http://localhost:9005","state":"959019987"}
+[debug] [2021-08-06T19:26:44.635Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Fri, 06 Aug 2021 19:26:44 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"81e1b65d7207202ba2fd6cdb902e623c\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com render-temp.githubusercontent.com viewscreen.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"D05F:60BD:5399E1:63C7B4:610D8CF4"}
+[debug] [2021-08-06T19:26:44.640Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-08-06T19:26:45.455Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-08-06T19:26:45.455Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"RahulKesharwani353","id":65972077,"node_id":"MDQ6VXNlcjY1OTcyMDc3","avatar_url":"https://avatars.githubusercontent.com/u/65972077?v=4","gravatar_id":"","url":"https://api.github.com/users/RahulKesharwani353","html_url":"https://github.com/RahulKesharwani353","followers_url":"https://api.github.com/users/RahulKesharwani353/followers","following_url":"https://api.github.com/users/RahulKesharwani353/following{/other_user}","gists_url":"https://api.github.com/users/RahulKesharwani353/gists{/gist_id}","starred_url":"https://api.github.com/users/RahulKesharwani353/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/RahulKesharwani353/subscriptions","organizations_url":"https://api.github.com/users/RahulKesharwani353/orgs","repos_url":"https://api.github.com/users/RahulKesharwani353/repos","events_url":"https://api.github.com/users/RahulKesharwani353/events{/privacy}","received_events_url":"https://api.github.com/users/RahulKesharwani353/received_events","type":"User","site_admin":false,"name":"Rahul Kesharwani","company":null,"blog":"https://rahulkesharwani.study/","location":null,"email":null,"hireable":true,"bio":null,"twitter_username":"rahul10900","public_repos":22,"public_gists":0,"followers":4,"following":2,"created_at":"2020-05-26T17:13:14Z","updated_at":"2021-07-16T14:06:29Z","private_gists":0,"total_private_repos":6,"owned_private_repos":6,"disk_usage":156862,"collaborators":6,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as RahulKesharwani353 
+[info] 
