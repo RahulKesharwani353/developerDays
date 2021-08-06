@@ -29,8 +29,8 @@ const NavBar = () => {
       {/* <Nav.Link href="#chalanges">Challenges</Nav.Link>
       <Nav.Link href="#Leader">LeaderBoard</Nav.Link> */}
       <Nav.Link href="/home#sponsors">Sponsors</Nav.Link>
-      <Nav.Link  >
-      <Link to="/register" className="nav-item">Register</Link></Nav.Link>
+      <Nav.Link href="https://developerdays.devfolio.co/" target="_blank" className="nav-item" >
+     Register</Nav.Link>
       
 
     </Nav>

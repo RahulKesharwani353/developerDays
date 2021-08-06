@@ -41,7 +41,7 @@ h5{
   font-style: normal;
   font-weight: bold;
   font-size: 62px;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 .landingHeading p{
 
@@ -51,6 +51,10 @@ h5{
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
+}
+.landingRegister{
+  display: flex;
+  justify-content: flex-start;
 }
 
 .sub-heading{
@@ -156,6 +160,11 @@ h5{
   height: 100vh;
 }
 
+#sponsors {
+  text-align: center;
+}
+
+
 
 @media screen and (max-width: 768px){
   .landingClipArt{
@@ -179,6 +188,9 @@ h5{
   }
   #navLogo{
       height: 50px;
+  }
+  .landingRegister{
+    justify-content: center;
   }
 
   .sub-heading{

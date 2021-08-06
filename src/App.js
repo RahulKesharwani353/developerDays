@@ -11,11 +11,13 @@ import Footer from './components/footer'
 import AboutTrack from './pages/AboutTrack';
 import ScrollToTop from './components/scrollToTop';
 import Error404 from './pages/Error404';
+import FloatingBtn from './components/FloatingBtn';
 function App() {
   return (
     <div className="App" >
       <Router>
       <NavBar/>
+      <FloatingBtn />
       <ScrollToTop />
         <Switch>
           <Route path='/' exact component={Home}/>
@@ -25,6 +27,7 @@ function App() {
           <Route component={Error404}/>
         </Switch>
      </Router>
+   
      <Footer />
 
     </div>

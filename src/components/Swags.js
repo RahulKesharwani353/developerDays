@@ -15,7 +15,7 @@ const Swags = () => {
             </Col>
             <Row  >
                 {
-                    swags.map((elem,index)=>{
+                    swags[0].titleSwags.map((elem,index)=>{
                         const {title,subTitle,desc,border} =elem;
                         return(
                             <Col lg={4} md={4} style={{display: 'flex', justifyContent: 'center'}} key={index}>

@@ -3,6 +3,7 @@ import { Container, Row,Col } from 'react-bootstrap';
 import styl from '../components/css/abouttrack.module.css'
 import session from '../assets/images/session_icon.svg'
 import challanges from '../assets/images/challanges_icon.svg'
+import clnd from '../assets/images/icons8-calendar-24.png'
 const weekDetails = (props) => {
   console.log(props.SessionsDetail)
     return (
@@ -18,7 +19,7 @@ const weekDetails = (props) => {
             {
           props.SessionsDetail.map(
             (elem,index)=>{
-                const {session_1_head,session_1_detail, session_2_head, session_2_detail,challange_head, challange_detail} =elem;
+                const {session_1_head,session_1_detail, session_2_head, session_2_detail,challange_head, challange_detail,session_1_dates, session_2_dates} =elem;
                 return (
                   
             <Row className={styl.weekContainer} key={index}>
@@ -30,12 +31,14 @@ const weekDetails = (props) => {
               <div>
               <div style={{display:'flex'}}><img src={session} alt="date"/>
               <h3>{session_1_head}</h3></div>
+              <div className={styl.date}><img src={clnd}/>{session_1_dates}</div>
               <p>{session_1_detail}</p>
               </div>
 
               <div>
               <div style={{display:'flex'}}><img src={session} alt="date"/>
               <h3>{session_2_head}</h3></div>
+              <div className={styl.date}><img src={clnd}/>{session_2_dates}</div>
               <p>{session_2_detail}</p>
               </div>
 

@@ -47,7 +47,9 @@ const Track=[
         session_2_head: "Javascript ",
         session_2_detail: "In this session, we will deep dive into the basics of javascript and try to implement it in our project",
         challange_head: "Challenges",
-        challange_detail: "Available Soon!"
+        challange_detail: "Available Soon!",
+        session_1_dates:"Soon",
+        session_2_dates:"Soon"
     },
     {
         session_1_head: "Backend Concepts with Node.js ",
@@ -55,7 +57,9 @@ const Track=[
         session_2_head: " Setting up Authentication using Sawo Labs API",
         session_2_detail: "Node.js is not the only thing you can do with a Web application, there are a ton more things you can do by integrating sawo lab APIs into your web application.",
         challange_head: "Challenges",
-        challange_detail: "Available Soon!"
+        challange_detail: "Available Soon!",
+        session_1_dates:"Soon",
+        session_2_dates:"Soon"
     } ,
     {
         session_1_head: "Introduction to SQL / MySQL  ",
@@ -63,7 +67,9 @@ const Track=[
         session_2_head: "  Introduction to MongoDB ",
         session_2_detail: "In this session, we will try to integrate MongoDB with our web application, make sure you get ready to attend",
         challange_head: "Challenges",
-        challange_detail: "Available Soon!"
+        challange_detail: "Available Soon!",
+        session_1_dates:"Soon",
+        session_2_dates:"Soon"
     },
     {
         session_1_head: "Fundamentals of DevOps",
@@ -71,7 +77,9 @@ const Track=[
         session_2_head: "Building projects with Azure",
         session_2_detail: "Let's us Invent with purpose, realise cost savings and make more efficient apps with Microsoft Azure's open and flexible cloud computing platform.",
         challange_head: "Challenges",
-        challange_detail: "Available Soon!"
+        challange_detail: "Available Soon!",
+        session_1_dates:"Soon",
+        session_2_dates:"Soon"
     },
     {
         session_1_head: "Hosting ",
@@ -79,7 +87,9 @@ const Track=[
         session_2_head: "Bonus Session",
         session_2_detail: "Detail Soon",
         challange_head: "Challenges",
-        challange_detail: "Available Soon!"
+        challange_detail: "Available Soon!",
+        session_1_dates:"Soon",
+        session_2_dates:"Soon"
     }]
   },
   {
@@ -108,7 +118,9 @@ const Track=[
       session_2_head: "Ideation, Research",
       session_2_detail: " Target audience, goals & outcomes, User personas",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!"
+      challange_detail: "Available Soon!",
+      session_1_dates:"Soon",
+      session_2_dates:"Soon"
   },
   {
       session_1_head: "Non-visual prototyping",
@@ -116,7 +128,9 @@ const Track=[
       session_2_head: "Visual research ",
       session_2_detail: "(preparing moodboard) + Heuristic evaluation",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!"
+      challange_detail: "Available Soon!",
+      session_1_dates:"Soon",
+      session_2_dates:"Soon"
   },
   {
       session_1_head: "Figma",
@@ -124,7 +138,9 @@ const Track=[
       session_2_head: "Wireframes  ",
       session_2_detail: "Low fidelity & High fidelity + Developing UI",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!"
+      challange_detail: "Available Soon!",
+      session_1_dates:"Soon",
+      session_2_dates:"Soon"
   }
   ,
   {
@@ -133,7 +149,9 @@ const Track=[
       session_2_head: " Industrial talk session ",
       session_2_detail: "Ask your doubts",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!"
+      challange_detail: "Available Soon!",
+      session_1_dates:"Soon",
+      session_2_dates:"Soon"
   }]
 },
 
@@ -159,10 +177,13 @@ const Track=[
   SessionsDetail: [{
       session_1_head: "Kotlin Basics",
       session_1_detail: "This will be a hands-on session in which we are going to understand the basics of kotlin and important concepts of it.",
+      
       session_2_head: " Kotlin In Android ",
       session_2_detail: "In this session, we will deep dive into the basics of Kotlin in android and try to implement it in our project",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!"
+      challange_detail: "Available Soon!",
+      session_1_dates:"25 August, 2021",
+      session_2_dates:"26 August, 2021"
   },
   {
       session_1_head: "Fragments, Intent And Data Sharing ",
@@ -170,7 +191,9 @@ const Track=[
       session_2_head: "Core Concept Of Recycler View",
       session_2_detail: "Recycler View plays the major role in development of any app, it is important to learn. In this session we will build projects using Recycler and Card View.",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!"
+      challange_detail: "Available Soon!",
+      session_1_dates:"1 September, 2021",
+      session_2_dates:"2 September, 2021"
   } ,
   {
       session_1_head: "Major Project- Frontend [Part I]",
@@ -178,23 +201,29 @@ const Track=[
       session_2_head: "Major Project- Frontend [Part II]",
       session_2_detail: "UI plays an important role for the user experiance of any app. We will continue our implemantations of UI in our app",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!"
+      challange_detail: "Available Soon!",
+      session_1_dates:"8 September, 2021",
+      session_2_dates:"9 September, 2021"
   },
   {
       session_1_head: "Major Project- Backend [Part I]",
       session_1_detail: "Lets Make our app more dynamic, we will integrate Authentication System, Notification system and Connect it with Database using Firebase.",
-      session_2_head: "Major Project- Frontend [Part II]",
+      session_2_head: "Major Project- Backend [Part II]",
       session_2_detail: "Let's us Invent with purpose and wrap-up all whole project, and make it as ready to deploy.",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!"
+      challange_detail: "Available Soon!",
+      session_1_dates:"15 September, 2021",
+      session_2_dates:"16 September, 2021"
   },
   {
       session_1_head: "Bonus Sessions ",
       session_1_detail: "We have special surprise sessions for You.",
-      session_2_head: "Bonus Session",
+      session_2_head: "Bonus Sessions",
       session_2_detail: "Detail will available Soon",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!"
+      challange_detail: "Available Soon!",
+      session_1_dates:"22 September, 2021",
+      session_2_dates:"23 September, 2021"
   }]
 },
 ];
