@@ -24,6 +24,7 @@ const NavBar = () => {
         <NavDropdown.Item href="/track/1">UI/UX Designing</NavDropdown.Item>
         <NavDropdown.Item href="/track/2">Android Development</NavDropdown.Item>
       </NavDropdown>
+      <Nav.Link href="/leaderboard">LeaderBoard</Nav.Link>
       <Nav.Link href="/home#Swags">Swags</Nav.Link>
       {/* <Nav.Link href="#sessions">Sessions</Nav.Link> */}
       {/* <Nav.Link href="#chalanges">Challenges</Nav.Link>

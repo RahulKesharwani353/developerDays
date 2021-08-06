@@ -40,7 +40,7 @@ const footer = () => {
 <a href="https://instagram.com/developerdays21" target="_blank" rel="noreferrer"><i class="fa fa-instagram"></i></a>
 <a href="https://twitter.com/developerdays21" target="_blank" rel="noreferrer"><i class="fa fa-twitter"></i></a>
 <a href="https://www.linkedin.com/company/developerdays" target="_blank" rel="noreferrer"><i class="fa fa-linkedin"></i></a>
-<a href="https://discord.gg/yt9vBKqtVg"><i class="fab fa-discord" rel="noreferrer"></i></a>
+<a href="https://discord.gg/yt9vBKqtVg" target="_blank" rel="noreferrer"><i class="fab fa-discord" rel="noreferrer"></i></a>
 <a href="https://www.youtube.com/channel/UCBjYrL6mJ_K6DpA2qUGUDRw" target="_blank" rel="noreferrer"><i class="fa fa-youtube"></i></a>
 
 </div>
