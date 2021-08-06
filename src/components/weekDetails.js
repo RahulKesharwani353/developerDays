@@ -31,14 +31,14 @@ const weekDetails = (props) => {
               <div>
               <div style={{display:'flex'}}><img src={session} alt="date"/>
               <h3>{session_1_head}</h3></div>
-              <div className={styl.date}><img src={clnd}/>{session_1_dates}</div>
+              <div className={styl.date}><img src={clnd} alt="icon"/>{session_1_dates}</div>
               <p>{session_1_detail}</p>
               </div>
 
               <div>
               <div style={{display:'flex'}}><img src={session} alt="date"/>
               <h3>{session_2_head}</h3></div>
-              <div className={styl.date}><img src={clnd}/>{session_2_dates}</div>
+              <div className={styl.date}><img src={clnd} alt="icon"/>{session_2_dates}</div>
               <p>{session_2_detail}</p>
               </div>
 

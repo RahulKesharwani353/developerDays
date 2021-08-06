@@ -1,5 +1,4 @@
 import React from 'react';
-import { Widget } from '@typeform/embed-react'
 import { Container } from 'react-bootstrap';
 import soon from '../assets/images/soon.svg'
 const registrationTypeForm = () => {
