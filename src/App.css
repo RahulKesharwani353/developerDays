@@ -41,7 +41,7 @@ h5{
   font-style: normal;
   font-weight: bold;
   font-size: 62px;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 .landingHeading p{
 
@@ -163,6 +163,7 @@ h5{
 #sponsors {
   text-align: center;
 }
+
 
 
 @media screen and (max-width: 768px){

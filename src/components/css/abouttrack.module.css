@@ -75,6 +75,26 @@
     font-weight: 400;
     font-size: 100px;
 }
+.date{
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-bottom: 8px;
+    background: #D9E1F2;
+    border: none;
+    border-radius: 40px;
+    font-size: 11px;
+    text-align: center;
+    align-content: center;
+}
+.date img{
+    width: 16px;
+    margin-right: 8px;
+}
 
 
 

@@ -20,7 +20,7 @@ const LandinPage = () => {
         <>
         <Container>
             <Row>
-                <Col>
+                <Col >
                 
                 <div className="landingHeading text-left">
                  <h1>Developer<br/>Days</h1>
@@ -35,6 +35,7 @@ const LandinPage = () => {
                      style={{width:'280px'}}
                 ></div>
                  </div>
+                 <p>August 22 - September 26, 2021</p>
                 </div>  
                 </Col>
                 <Col style={{display:'flex', justifyContent:'center'}}><img src={clipArt} alt="beta" className="landingClipArt text-center"/></Col>

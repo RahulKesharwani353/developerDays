@@ -10,6 +10,14 @@ const logos=[
             images:  require('../../assets/images/sponsorslogo/sawolabs.png').default,
             ref: "https://sawolabs.com/"
         }],
+        silver:[{
+            images:  require('../../assets/images/sponsorslogo/DO_Logo_vertical_blue.svg').default,
+            ref: "https://www.digitalocean.com/"
+        },
+        {
+            images:  require('../../assets/images/sponsorslogo/jetbrains.svg').default,
+            ref: "https://www.jetbrains.com/"
+        }],
 
         gold:[{
             images: xyz,

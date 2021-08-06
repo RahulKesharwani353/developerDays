@@ -43,7 +43,7 @@ const Hero = (props) => {
 	data-button-theme="dark-inverted"
   style={{width:'280px'}}
 ></div>
-<p>strating from 1st August, 2021</p>
+<p>August 22 - September 26, 2021</p>
             </Col>
             <Col className={styl.HeroRight}>
               <img src={props.svg} alt="svg" />
