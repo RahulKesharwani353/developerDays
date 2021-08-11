@@ -44,8 +44,8 @@ const Track=[
     SessionsDetail: [{
         session_1_head: "Basic front end (HTML+CSS+Bootstrap) ",
         session_1_detail: "This will be a hands-on session in which we are going to understand how to start web development with HTML, CSS and bootstrap.",
-        session_2_head: "Javascript ",
-        session_2_detail: "In this session, we will deep dive into the basics of javascript and try to implement it in our project",
+        session_2_head: "1. Javascript\n2. Building projects with React",
+        session_2_detail: "In this session, we will deep dive into the basics of javascript and try to implement it in our project, Managing several components in your website is chaotic, so in this session, we will guide you on how to tackle this problem using react.",
         challange_head: "Challenges",
         challange_detail: "Available Soon!",
         session_1_dates:"Soon",
@@ -83,7 +83,7 @@ const Track=[
     },
     {
         session_1_head: "Hosting ",
-        session_1_detail: "Let’s now have a final look at our project, if everything looks great let’s host your very own web application on your domain.",
+        session_1_detail: "Let’s now have a final look at our project, \nif everything looks great let’s host your very own web application on your domain.",
         session_2_head: "Bonus Session",
         session_2_detail: "Detail Soon",
         challange_head: "Challenges",
