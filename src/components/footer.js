@@ -50,8 +50,7 @@ const footer = () => {
 
 <hr/>
     <div className="col-12 text-center">
-      <p className="footer-company-name">© 2021 Developer Days | Developed by 
-        <a href="/home" target="_blank" className="footer-links"> Developer Days Team</a>
+      <p className="footer-company-name">© 2021 Developer Days 
       </p>
     </div>
     </footer> 
