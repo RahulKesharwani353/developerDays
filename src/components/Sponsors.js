@@ -91,7 +91,7 @@ const Sponsors = () => {
 
             <br/>
             <br/>
-            <h4>Sticker Partner</h4>
+            {/* <h4>Sticker Partner</h4>
             <Row style={{justifyContent: 'center'}}>
             {
                 sponsorsData[0].sticker.map((elem,index)=>{
@@ -104,7 +104,7 @@ const Sponsors = () => {
                 })
             }
               
-            </Row>
+            </Row> */}
 
             <Col style={{textAlign:'center', marginTop:'20px'}}>
             <button className={s_css.sponsourUs} ><a href="mailto:sponsorship@developerdays.tech">Sponsor Us</a> </button>

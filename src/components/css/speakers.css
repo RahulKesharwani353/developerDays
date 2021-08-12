@@ -1,0 +1,109 @@
+.courses-container{
+	align-self: center;
+}
+.courses-container a{
+	text-decoration: none;
+}
+.course {
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 500px;
+	height: 300px;
+    color: rgba(112,112,112,1);
+}
+
+/* .course:hover{
+	transform: scale(1.05);
+	filter: var(--background-color);
+	background-color: #0e8fd4;
+	color: white;
+	transition: all 0.3s linear 0s;
+} */
+
+.course h6 {
+	margin: 0;
+    font-weight: 700;
+
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.course h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.course-preview {
+    display: flex;
+    justify-content: center;
+	background-image: url("../../assets/images/grad1.svg");
+	background-size: cover;
+    text-align: center;
+	background-repeat: no-repeat;
+	/* background-size: cover; */
+	color:white;
+	padding: 30px;
+    width: 400px;
+    height: 300px;
+	/* max-width: 400px; */
+	/* max-height: 300px; */
+	 border-radius: 15px;
+}
+
+.speakers-photo img{
+    width: 100px;
+    border-radius: 80px;
+
+}
+.speakers-photo{
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.speakers-photo p{
+    margin-top: 5px;
+	letter-spacing: 0.8px;
+    font-size: 22px;
+    font-weight: 600;
+    opacity: 100%;
+    color: white;
+}
+/* 
+.course-preview a {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+} */
+
+.course-info {
+	padding: 20px;
+	position: relative;
+	width: 100%;
+}
+
+.course-btn {
+	background-color: #0072b1;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+}
+.course-btn:hover{
+	color: #0072b1;
+	background-color: white;
+	border-color: #0072b1;
+	border-width: 10px;
+}

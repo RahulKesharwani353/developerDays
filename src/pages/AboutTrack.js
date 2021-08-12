@@ -51,7 +51,7 @@ const AboutTrack = (props) => {
             <img src={Track[index].org} style={{height:'80px'}} alt="dsc"/>
         </Container>
         <div id="speakers">
-        <Speakers/>
+        {/* <Speakers/> */}
         </div>
         <hr/>
         <div id="sessions"><WeekDetails SessionsDetail = {Track[index].SessionsDetail}/></div>
