@@ -1,7 +1,7 @@
 import React from 'react';
 import {  Container, Nav, Row } from 'react-bootstrap';
 import styl from '../components/css/abouttrack.module.css'
-import Speakers from '../components/speakers'
+// import Speakers from '../components/speakers'
 import Hero from '../components/Hero';
 import TrackDetail from '../components/TrackDetail';
 import WeekDetails from '../components/weekDetails';
