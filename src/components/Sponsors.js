@@ -88,6 +88,24 @@ const Sponsors = () => {
             }
               
             </Row>
+
+            <br/>
+            <br/>
+            <h4>Sticker Partner</h4>
+            <Row style={{justifyContent: 'center'}}>
+            {
+                sponsorsData[0].sticker.map((elem,index)=>{
+                    const {images,ref} =elem;
+                    return(
+                        <Col lg={3} xs={6} md={3} className={s_css.sponsorsLogo} key={index}>
+                   <a href={ref} target="_blank" rel="noreferrer"><img src={images} alt="sponsor logo"/></a> 
+                </Col>
+                    )
+                })
+            }
+              
+            </Row>
+
             <Col style={{textAlign:'center', marginTop:'20px'}}>
             <button className={s_css.sponsourUs} ><a href="mailto:sponsorship@developerdays.tech">Sponsor Us</a> </button>
             </Col>

@@ -60,6 +60,18 @@ const logos=[
         {
             images: require('../../assets/images/sponsorslogo/SkillShip-FoundationBlack.png').default,
             ref: "https://skillshipfoundation.com/"
+        },
+        {
+            images: require('../../assets/images/sponsorslogo/axure.svg').default,
+            ref: "https://www.axure.com/"
+        },
+        {
+            images: require('../../assets/images/sponsorslogo/echoAR - Logo 2020 - Dark.png').default,
+            ref: "https://www.echoar.xyz/"
+        }],
+        sticker:[{
+            images: require('../../assets/images/sponsorslogo/sticker-mule-logo-light-bg.svg').default,
+            ref: "https://www.stickermule.com/"
         }]
     }
 
