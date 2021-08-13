@@ -18,6 +18,22 @@ const partners = [{
     images:  require('../../assets/images/communitypartner/pug.png').default,
             ref: "http://discord.pugroups.in"
 
+}
+,
+{
+    images:  require('../../assets/images/communitypartner/baseCamp.png').default,
+            ref: "https://twitter.com/basecampXD"
+
+},
+{
+    images:  require('../../assets/images/communitypartner/devston.png').default,
+            ref: "https://linktr.ee/devstrons"
+
+},
+{
+    images:  require('../../assets/images/communitypartner/TFUGS Logo -Chandigarh.png').default,
+            ref: "https://www.meetup.com/tensorflow-user-group-chandigarh/"
+
 }]
 
 export default partners

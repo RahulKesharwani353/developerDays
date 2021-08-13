@@ -13,6 +13,7 @@ import ScrollToTop from './components/scrollToTop';
 import Error404 from './pages/Error404';
 import FloatingBtn from './components/FloatingBtn';
 import LeaderBoard from './pages/LeaderBoard';
+import ShedulePage from './pages/shedulePage';
 function App() {
   return (
     <div className="App" >
@@ -25,6 +26,7 @@ function App() {
           <Route path='/home' exact component={Home}/>
           <Route path='/register' exact component={registrationTypeForm}/>
           <Route path='/leaderboard' exact component={LeaderBoard}/>
+          <Route path='/schedule' exact component={ShedulePage}/>
           <Route path='/track/:track' exact component={AboutTrack}/>
           <Route component={Error404}/>
         </Switch>

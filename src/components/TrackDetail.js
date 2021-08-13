@@ -3,7 +3,6 @@ import { Container, Row,Col } from 'react-bootstrap';
 import SkillsEarn from './SkillsEarn';
 
 const TrackDetail = (props) => {
-    console.log(props)
     return (
         <div>
                    <Container style={{marginTop:'35px'}}>

@@ -18,7 +18,7 @@ const Sponsors = () => {
             <div className="sub-heading">Sponsors</div>
             </Col>
             <Col>
-            <div className="heading">Thanks for making event successful</div>
+            <div className="heading">Thanks for making this event successful</div>
             </Col>
             <br/>
             <Row style={{justifyContent: 'center'}}>

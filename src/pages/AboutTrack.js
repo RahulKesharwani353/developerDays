@@ -1,7 +1,7 @@
 import React from 'react';
 import {  Container, Nav, Row } from 'react-bootstrap';
 import styl from '../components/css/abouttrack.module.css'
-// import Speakers from '../components/speakers'
+import Speakers from '../components/speakers'
 import Hero from '../components/Hero';
 import TrackDetail from '../components/TrackDetail';
 import WeekDetails from '../components/weekDetails';
@@ -51,7 +51,7 @@ const AboutTrack = (props) => {
             <img src={Track[index].org} style={{height:'80px'}} alt="dsc"/>
         </Container>
         <div id="speakers">
-        {/* <Speakers/> */}
+        <Speakers SpeakersDetail = {Track[index].speakers}/>
         </div>
         <hr/>
         <div id="sessions"><WeekDetails SessionsDetail = {Track[index].SessionsDetail}/></div>
