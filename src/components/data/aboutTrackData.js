@@ -49,7 +49,7 @@ const Track=[
         challange_head: "Challenges",
         challange_detail: "Available Soon!",
         session_1_dates:"27 August, 2021",
-        session_2_dates:"28 August, 2021"
+        session_2_dates:"28 August, 2021 and 29 August, 2021"
     },
     {
         session_1_head: "Backend with Node.js ",
@@ -101,7 +101,7 @@ const Track=[
       },
       {
         image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2FRakshaa.png?alt=media&token=3be9a4ac-bce1-4749-be06-140cc5f47be1",
-        name:"Nitin Prakash",
+        name:"Rakshaa Viswanathan",
         designation:"SDE Inter at Microsoft",
         linkedIn:"https://www.linkedin.com/in/rakshaa-viswanathan-0aa891199/",
         insta:"",
