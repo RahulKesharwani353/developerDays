@@ -42,44 +42,44 @@ const Track=[
     skill:"SQL / MySQL"
 }],
     SessionsDetail: [{
-        session_1_head: "Basic front end (HTML+CSS+Bootstrap) ",
+        session_1_head: "Basic frontend (HTML+CSS+Bootstrap) ",
         session_1_detail: "This will be a hands-on session in which we are going to understand how to start web development with HTML, CSS and bootstrap.",
-        session_2_head: "1. Javascript\n2. Building projects with React",
+        session_2_head: "1. Javascript\n2.Frontend with React",
         session_2_detail: "In this session, we will deep dive into the basics of javascript and try to implement it in our project, Managing several components in your website is chaotic, so in this session, we will guide you on how to tackle this problem using react.",
         challange_head: "Challenges",
         challange_detail: "Available Soon!",
-        session_1_dates:"Soon",
-        session_2_dates:"Soon"
+        session_1_dates:"27 August, 2021",
+        session_2_dates:"28 August, 2021"
     },
     {
-        session_1_head: "Backend Concepts with Node.js ",
+        session_1_head: "Backend with Node.js ",
         session_1_detail: "After attending a week of frontend, now let's have a look towards the backstage of any web application. Let's go with the trend and start with Node.js",
-        session_2_head: " Setting up Authentication using Sawo Labs API",
+        session_2_head: "Setting up Authentication using Sawo Labs API",
         session_2_detail: "Node.js is not the only thing you can do with a Web application, there are a ton more things you can do by integrating sawo lab APIs into your web application.",
         challange_head: "Challenges",
         challange_detail: "Available Soon!",
-        session_1_dates:"Soon",
-        session_2_dates:"Soon"
+        session_1_dates:"3 September, 2021",
+        session_2_dates:"4 September, 2021"
     } ,
     {
-        session_1_head: "Introduction to SQL / MySQL  ",
+        session_1_head: "Hands-On with SQL / MySQL  ",
         session_1_detail: "Now it's time to collect some data with your web application. Let’s start with the basics i.e SQL and MySQL.",
-        session_2_head: "  Introduction to MongoDB ",
+        session_2_head: "Getting Started with MongoDB ",
         session_2_detail: "In this session, we will try to integrate MongoDB with our web application, make sure you get ready to attend",
         challange_head: "Challenges",
         challange_detail: "Available Soon!",
-        session_1_dates:"Soon",
-        session_2_dates:"Soon"
+        session_1_dates:"10 September, 2021",
+        session_2_dates:"11 September, 2021"
     },
     {
         session_1_head: "Fundamentals of DevOps",
         session_1_detail: "Let us deploy, operate, monitor, and release your code into the vast ocean of the internet.",
-        session_2_head: "Building projects with Azure",
+        session_2_head: "Getting Started with Azure",
         session_2_detail: "Let's us Invent with purpose, realise cost savings and make more efficient apps with Microsoft Azure's open and flexible cloud computing platform.",
         challange_head: "Challenges",
         challange_detail: "Available Soon!",
-        session_1_dates:"Soon",
-        session_2_dates:"Soon"
+        session_1_dates:"17 September, 2021",
+        session_2_dates:"18 September, 2021"
     },
     {
         session_1_head: "Hosting ",
@@ -88,10 +88,25 @@ const Track=[
         session_2_detail: "Detail Soon",
         challange_head: "Challenges",
         challange_detail: "Available Soon!",
-        session_1_dates:"Soon",
+        session_1_dates:"24 September, 2021",
         session_2_dates:"Soon"
     }],
-    speakers:[]
+    speakers:[{
+        image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2FPraveen-Stage-Full-2K.jpg?alt=media&token=005e673e-1c24-4511-a878-cdcfa65ab2be",
+        name:"Praveen Kumar",
+        designation:"Fullstack JavaScript Developer",
+        linkedIn:"https://www.linkedin.com/in/praveentech/",
+        insta:"https://www.instagram.com/praveenscience/",
+        twitter:"https://twitter.com/praveenscience"
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2FRakshaa.png?alt=media&token=3be9a4ac-bce1-4749-be06-140cc5f47be1",
+        name:"Nitin Prakash",
+        designation:"SDE Inter at Microsoft",
+        linkedIn:"https://www.linkedin.com/in/rakshaa-viswanathan-0aa891199/",
+        insta:"",
+        twitter:"https://twitter.com/RakshaaViswana1"
+      }]
   },
   {
     title: "UI/UX Designing",
@@ -120,8 +135,8 @@ const Track=[
       session_2_detail: " Target audience, goals & outcomes, User personas",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
-      session_1_dates:"Soon",
-      session_2_dates:"Soon"
+      session_1_dates:"23 August, 2021",
+      session_2_dates:"24 August, 2021"
   },
   {
       session_1_head: "Non-visual prototyping",
@@ -130,8 +145,8 @@ const Track=[
       session_2_detail: "(preparing moodboard) + Heuristic evaluation",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
-      session_1_dates:"Soon",
-      session_2_dates:"Soon"
+      session_1_dates:"30 August, 2021",
+      session_2_dates:"31 August, 2021"
   },
   {
       session_1_head: "Figma",
@@ -140,8 +155,8 @@ const Track=[
       session_2_detail: "Low fidelity & High fidelity + Developing UI",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
-      session_1_dates:"Soon",
-      session_2_dates:"Soon"
+      session_1_dates:"6 September, 2021",
+      session_2_dates:"7 September, 2021"
   }
   ,
   {
@@ -151,10 +166,17 @@ const Track=[
       session_2_detail: "Ask your doubts",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
-      session_1_dates:"Soon",
-      session_2_dates:"Soon"
+      session_1_dates:"13 September, 2021",
+      session_2_dates:"14 September, 2021"
   }],
-  speakers: []
+  speakers: [{
+    image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2FUI%2Fpunit%20chawla.jpg?alt=media&token=f8815a45-5be8-4ae5-8109-e4a3761c74dd",
+    name:"Punit Chawla",
+    designation:"Founder at DesignWings",
+    linkedIn:"https://www.linkedin.com/in/punitweb/",
+    insta:"https://www.instagram.com/punitchawlaofficial/",
+    twitter:"https://twitter.com/punitweb"
+  }]
 },
 
 
@@ -191,10 +213,10 @@ const Track=[
     skill:"Database"
 },],
   SessionsDetail: [{
-      session_1_head: "Introduction in Kotlin",
+      session_1_head: "Introduction at Kotlin",
       session_1_detail: "This will be a hands-on session in which we are going to understand the basics of kotlin and important concepts of it.",
       
-      session_2_head: "Introduction of Android Development",
+      session_2_head: "Getting Started With Android Development: Single page app",
       session_2_detail: "In this session, we will deep dive into the basics of Kotlin in android and try to implement it in our project",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
