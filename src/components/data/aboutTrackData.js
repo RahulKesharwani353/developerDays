@@ -102,7 +102,7 @@ const Track=[
       {
         image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2FRakshaa.png?alt=media&token=3be9a4ac-bce1-4749-be06-140cc5f47be1",
         name:"Rakshaa Viswanathan",
-        designation:"SDE Inter at Microsoft",
+        designation:"SDE Intern at Microsoft",
         linkedIn:"https://www.linkedin.com/in/rakshaa-viswanathan-0aa891199/",
         insta:"",
         twitter:"https://twitter.com/RakshaaViswana1"
