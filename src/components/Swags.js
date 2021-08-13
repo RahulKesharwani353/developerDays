@@ -11,7 +11,7 @@ const Swags = () => {
             <div className="sub-heading">Swags</div>
             </Col>
             <Col>
-            <div className="heading">We appreciate your participations </div>
+            <div className="heading">We appreciate your participation </div>
             </Col>
             <Row  >
                 {

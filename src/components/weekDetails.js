@@ -5,7 +5,6 @@ import session from '../assets/images/session_icon.svg'
 import challanges from '../assets/images/challanges_icon.svg'
 import clnd from '../assets/images/icons8-calendar-24.png'
 const weekDetails = (props) => {
-  console.log(props.SessionsDetail)
     return (
         <div>
                    <Container>

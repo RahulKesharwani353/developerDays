@@ -90,7 +90,8 @@ const Track=[
         challange_detail: "Available Soon!",
         session_1_dates:"Soon",
         session_2_dates:"Soon"
-    }]
+    }],
+    speakers:[]
   },
   {
     title: "UI/UX Designing",
@@ -152,7 +153,8 @@ const Track=[
       challange_detail: "Available Soon!",
       session_1_dates:"Soon",
       session_2_dates:"Soon"
-  }]
+  }],
+  speakers: []
 },
 
 
@@ -166,19 +168,33 @@ const Track=[
     skills_data:[{
         skill:"Kotlin"
     },
+    
+    {
+        skill:"Material Designing"
+    },
+    {
+        skill:"xml"
+    },
+    {
+        skill:"Oops"
+    },
     {
         skill:"Android"
     },
     {
       skill:"Firebase"
-  },{
+  },
+  {
       skill:"Authentication"
-  }],
+  },
+  {
+    skill:"Database"
+},],
   SessionsDetail: [{
-      session_1_head: "Kotlin Basics",
+      session_1_head: "Introduction in Kotlin",
       session_1_detail: "This will be a hands-on session in which we are going to understand the basics of kotlin and important concepts of it.",
       
-      session_2_head: " Kotlin In Android ",
+      session_2_head: "Introduction of Android Development",
       session_2_detail: "In this session, we will deep dive into the basics of Kotlin in android and try to implement it in our project",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
@@ -186,9 +202,9 @@ const Track=[
       session_2_dates:"26 August, 2021"
   },
   {
-      session_1_head: "Fragments, Intent And Data Sharing ",
+      session_1_head: "Developing Multi-Pages Application",
       session_1_detail: "In this session, we will try our hands-on and build the projects with multiple pages.",
-      session_2_head: "Core Concept Of Recycler View",
+      session_2_head: "Deep-Dive in Android Development: Core Concept Of Recycler View",
       session_2_detail: "Recycler View plays the major role in development of any app, it is important to learn. In this session we will build projects using Recycler and Card View.",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
@@ -196,19 +212,19 @@ const Track=[
       session_2_dates:"2 September, 2021"
   } ,
   {
-      session_1_head: "Major Project- Frontend [Part I]",
-      session_1_detail: "Now we will ready to develop a major project for our resume.",
-      session_2_head: "Major Project- Frontend [Part II]",
-      session_2_detail: "UI plays an important role for the user experiance of any app. We will continue our implemantations of UI in our app",
+      session_1_head: "Developing Fullstack Project For Resume- Frontend [Part I]",
+      session_1_detail: "Now we will ready to develop a major project for our resume, we will implement Material UI, and some functionality to our app.",
+      session_2_head: "Developing Fullstack Project For Resume- Frontend [Part II]",
+      session_2_detail: "UI plays an important role for the user experience of any app. So, we will continue our implementations of UI in our app",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
       session_1_dates:"8 September, 2021",
       session_2_dates:"9 September, 2021"
   },
   {
-      session_1_head: "Major Project- Backend [Part I]",
+      session_1_head: "Developing Fullstack Project For Resume- Backend",
       session_1_detail: "Lets Make our app more dynamic, we will integrate Authentication System, Notification system and Connect it with Database using Firebase.",
-      session_2_head: "Major Project- Backend [Part II]",
+      session_2_head: "Developing Fullstack Project For Resume- Managing Database ",
       session_2_detail: "Let's us Invent with purpose and wrap-up all whole project, and make it as ready to deploy.",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
@@ -224,7 +240,16 @@ const Track=[
       challange_detail: "Available Soon!",
       session_1_dates:"22 September, 2021",
       session_2_dates:"23 September, 2021"
-  }]
+  }],
+  speakers: [
+{
+  image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fandroid%2FIMG_20210506_100046_830.jpg?alt=media&token=11fd9216-d487-4712-a848-957af36f2f76",
+  name:"Nitin Prakash",
+  designation:"Android Developer at BYJUS",
+  linkedIn:"https://www.linkedin.com/in/nitin-prakash9911/",
+  insta:"https://www.instagram.com/nitin_prksh/",
+  twitter:"https://twitter.com/coder_lane"
+}]
 },
 ];
 export default Track;
