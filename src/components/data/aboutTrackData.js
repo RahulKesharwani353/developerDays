@@ -271,7 +271,15 @@ const Track=[
   linkedIn:"https://www.linkedin.com/in/nitin-prakash9911/",
   insta:"https://www.instagram.com/nitin_prksh/",
   twitter:"https://twitter.com/coder_lane"
-}]
+},
+{
+    image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fandroid%2FWhatsApp%20Image%202021-08-15%20at%2012.28.07%20AM.jpg?alt=media&token=e2424c9b-522e-420e-9a12-8eb3e63416f5",
+    name:"Akshay Sawant",
+    designation:"Android Dev at Cloudwalker",
+    linkedIn:"https://www.linkedin.com/in/akshay-sawant-a50a20137",
+    insta:"https://www.instagram.com/akshaysawant003/",
+    twitter:"https://twitter.com/imAkshaySawant"
+  }]
 },
 ];
 export default Track;

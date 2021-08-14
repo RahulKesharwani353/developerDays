@@ -18,6 +18,32 @@ const Swags=[{
             desc: "Every participants will get free digital swags and certificate",
             border: "#EA5459"
         }
+    ],
+    imageLogo: [
+        {
+            images: require('../../assets/images/sponsorslogo/sawolabs.png').default,
+            subTitle: "Sawo Challenge Prize",
+            desc: "Goodies & Certificate\n100% funds for the deployment of best web and mobile app\nFree Inaugurate Tire access",
+            border: "#ffc107"
+        },
+        {
+            images: require('../../assets/images/sponsorslogo/Polygon_Logo-Colored.svg').default,
+            subTitle: "Polygon Bounty Prize",
+            desc: "₹10,000 for best hack built on Ethereum",
+            border: "#8247e5"
+        },
+        {
+            images: require('../../assets/images/sponsorslogo/Celo Logo Color.png').default,
+            subTitle: "Tezos Bounty Prize",
+            desc: "₹20,000 for best app built on Celo continuity Support",
+            border: "rgb(63 210 131)"
+        },
+        {
+            images: require('../../assets/images/sponsorslogo/Tezos_Logo-Colored@2x.png').default,
+            subTitle: "Tezos Bounty Prize",
+            desc: "₹20,000 for best app built on Tezos\n₹25,000 for building Flutter Tezos Wallet app",
+            border: "#5d9bf8"
+        }
     ]
 }
 ]

@@ -7,6 +7,7 @@ import Organizers from '../components/Organizers';
 import Swags from '../components/Swags';
 import CommunityPartner from '../components/CommunityPartner';
 
+
 const Home = () => {
     return (
         <div>
@@ -19,7 +20,9 @@ const Home = () => {
             <CommunityPartner/>
             <br/>
             <br/>
-    
+            {/* <FAQ/>
+            <br/>
+            <br/> */}
             <Organizers />
             
         </div>
