@@ -5,6 +5,10 @@ const logos=[
         diamond:[{
             images:  require('../../assets/images/sponsorslogo/Devfolio_Logo-Colored.svg').default,
             ref: "https://devfolio.co/"
+        },
+        {
+            images:  require('../../assets/images/sponsorslogo/Devfolio_Logo-Colored.svg').default,
+            ref: "https://devfolio.co/"
         }],
         auth:[{
             images:  require('../../assets/images/sponsorslogo/sawolabs.png').default,
@@ -42,6 +46,10 @@ const logos=[
         {
             images: require('../../assets/images/sponsorslogo/Celo Logo Color.png').default,
             ref: "https://celo.org/"
+        },
+        {
+            images: require('../../assets/images/sponsorslogo/coinswitch-kuber-original.png').default,
+            ref: "https://coinswitch.co/"
         }
         ,
         {
