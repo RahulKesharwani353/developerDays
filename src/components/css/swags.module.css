@@ -18,3 +18,7 @@
 .swagBox p{
     font-size: 12px;
 }
+.swagBox img{
+    width: 120px;
+    margin-bottom: 35px;
+}

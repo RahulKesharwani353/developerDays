@@ -13,7 +13,7 @@ const Swags = () => {
             <Col>
             <div className="heading">We appreciate your participation </div>
             </Col>
-            <Row  >
+            <Row  style={{display: 'flex', justifyContent: 'center'}}>
                 {
                     swags[0].titleSwags.map((elem,index)=>{
                         const {title,subTitle,desc,border} =elem;
@@ -30,9 +30,22 @@ const Swags = () => {
                         )
                     })
                 }
-                <Col style={{textAlign:'center', marginTop: '50px'}}>
-                <h5>More Announcing Soon !!</h5>
-                </Col>
+                   {
+                    swags[0].imageLogo.map((elem,index)=>{
+                        const {images,subTitle,desc,border} =elem;
+                        return(
+                            <Col lg={4} md={4} style={{display: 'flex', justifyContent: 'center'}}  key={index}>
+                            <div className={styl.swagBox} style={{borderColor: border}}>
+                             <img src={images} alt="logo" />
+                             <br/>
+                             <h6>{subTitle}</h6>
+                             <br/>
+                             <p style={{ whiteSpace: 'break-spaces' }}>{desc}</p>
+                         </div>
+                            </Col>
+                        )
+                    })
+                }
               
             </Row>
             
