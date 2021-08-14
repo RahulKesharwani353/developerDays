@@ -8,6 +8,7 @@ import bronze from '../assets/images/bronze.svg'
 import silver from '../assets/images/silver.svg'
 import dev from '../assets/images/sponsorslogo/Devfolio_Logo-Colored.svg'
 import swao from '../assets/images/sponsorslogo/sawolabs.png'
+
 const Sponsors = () => {
 
     console.log(sponsorsData)
@@ -27,7 +28,9 @@ const Sponsors = () => {
                 <Col className={s_css.sponsorsLogo} >
                 <h4>Diamond Sponsors💎</h4>
                 <br/>
-                   <a href="https://devfolio.co/" target="_blank" rel="noreferrer"><img src={dev} alt="sponsor logo" /></a> 
+                <div>
+                <a href="https://devfolio.co/" target="_blank" rel="noreferrer"><img src={dev} alt="sponsor logo" /></a> 
+                </div>
                 </Col>
                 <Col className={s_css.sponsorsLogo} >
                 <h4>Authentication Partner🤝</h4>

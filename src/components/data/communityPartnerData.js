@@ -26,7 +26,7 @@ const partners = [{
 
 },
 {
-    images:  require('../../assets/images/communitypartner/devston.png').default,
+    images:  require('../../assets/images/communitypartner/16288033386341000011.png').default,
             ref: "https://linktr.ee/devstrons"
 
 },
