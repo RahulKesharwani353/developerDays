@@ -6,6 +6,7 @@ import Sponsors from '../components/Sponsors';
 import Organizers from '../components/Organizers';
 import Swags from '../components/Swags';
 import CommunityPartner from '../components/CommunityPartner';
+import FAQs from '../components/faq';
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
             {/* <FAQ/>
             <br/>
             <br/> */}
+            <FAQs />
             <Organizers />
             
         </div>

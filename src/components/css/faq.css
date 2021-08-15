@@ -68,34 +68,39 @@
   }
   
   .accordion-item {
-	background-color: #fff;
-	color: #111;
+	background-color: #D9E1F2;
+	color: #707070;
 	margin: 1rem 0;
-	border-radius: 1rem;
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+	border-radius: 0.5rem;
+	/* box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25); */
   }
   
   .accordion-item-header {
 	padding: 0.5rem 3rem 0.5rem 1rem;
 	min-height: 3.5rem;
 	line-height: 1.25rem;
-	font-weight: bold;
+	font-weight: 600;
 	display: flex;
 	align-items: center;
 	position: relative;
 	cursor: pointer;
+  border-style: none;
+  background: none;
+  width: 100%;
+  color: #707070;
+  text-align: start;
   }
   
   .accordion-item-header::after {
-	content: "\002B";
-	font-size: 2rem;
+	content: "\23F7";
+	font-size: 1rem;
 	position: absolute;
 	right: 1rem;
-	color: #EF4B79;
+  color: #707070;
   }
   .accordion-item-header.active::after {
 	content: "\2212";
-  
+
   }
   .accordion-item-body {
 

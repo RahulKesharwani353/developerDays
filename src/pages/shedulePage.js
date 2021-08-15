@@ -23,7 +23,7 @@ const ShedulePage = () => {
       //   <div>
            
            
-      //       {/* <iframe title ="huu" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR_arduPZvTEVLPu6c0TH0zaozqedcAE_gyS61AP5A17VHQSlylfUlD6s-SbwCkR0FZCDoY4yIqfZkG/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> */}
+     
 
 
 
@@ -42,6 +42,9 @@ const ShedulePage = () => {
       <Container>
         <Row style={{display:'flex' ,justifyContent:'center', marginBottom:'30px',marginTop:'30px'}}>
         <h1>Event schedule</h1>
+               {/* <iframe 
+               style={{width:'100%', height:'100vh'}}
+               title ="huu" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR_arduPZvTEVLPu6c0TH0zaozqedcAE_gyS61AP5A17VHQSlylfUlD6s-SbwCkR0FZCDoY4yIqfZkG/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> */}
         </Row>
         
       <Table striped bordered >

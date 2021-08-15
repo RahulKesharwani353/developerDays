@@ -21,6 +21,7 @@ const weekDetails = (props) => {
                 const {session_1_head,session_1_detail, session_2_head, session_2_detail,challange_head, challange_detail,session_1_dates, session_2_dates} =elem;
                 return (
                   
+            <>
             <Row className={styl.weekContainer} key={index}>
             <Col  lg={2} className={styl.weekBox}>
             <div style={{fontSize:'15px'}}>WEEK</div>
@@ -48,6 +49,8 @@ const weekDetails = (props) => {
               </div>
             </Col>
           </Row>
+          <hr/>
+            </>
                 )
             }
           )
