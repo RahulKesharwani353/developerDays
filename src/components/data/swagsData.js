@@ -23,13 +23,13 @@ const Swags=[{
         {
             images: require('../../assets/images/sponsorslogo/sawolabs.png').default,
             subTitle: "Sawo Challenge Prize",
-            desc: "Goodies & Certificate\n100% funds for the deployment of best web and mobile app\nFree Inaugurate Tire access",
+            desc: "Goodies & Certificate\n100% funds for the deployment of best web and mobile app\nFree Inaugurate Tier access",
             border: "#ffc107"
         },
         {
             images: require('../../assets/images/sponsorslogo/Polygon_Logo-Colored.svg').default,
             subTitle: "Polygon Bounty Prize",
-            desc: "₹10,000 for best hack built on Ethereum",
+            desc: "₹10,000 for best hack built on Ethereum\n₹15,000 for best hack built on Ethereum + Polygon",
             border: "#8247e5"
         },
         {

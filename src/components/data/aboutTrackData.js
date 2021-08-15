@@ -273,6 +273,14 @@ const Track=[
   twitter:"https://twitter.com/coder_lane"
 },
 {
+    image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fandroid%2FWhatsApp%20Image%202021-08-15%20at%2011.21.51%20PM.jpg?alt=media&token=18d3b9f4-996a-43ef-80a6-f612fb2e82f4",
+    name:"Khushi Sharma",
+    designation:"Generation Google Scholar’21",
+    linkedIn:"https://in.linkedin.com/in/khushi-sharma-2201",
+    insta:"https://www.instagram.com/_._khushi.sharma_._/",
+    twitter:"https://mobile.twitter.com/khushisharma_22"
+  },
+{
     image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fandroid%2FWhatsApp%20Image%202021-08-15%20at%2012.28.07%20AM.jpg?alt=media&token=e2424c9b-522e-420e-9a12-8eb3e63416f5",
     name:"Akshay Sawant",
     designation:"Android Dev at Cloudwalker",
