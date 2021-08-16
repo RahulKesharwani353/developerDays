@@ -6,7 +6,7 @@ import './css/faq.css'
 
 const ques=[{
   question: "When will Developer Days start and for how long will it continue?",
-  ans: "The league of Developer Dyas will start from the 22nd of August and will continue for 5 weeks.  "
+  ans: "The league of Developer Days will start from the 22nd of August and will continue for 5 weeks.  "
 },
 {
   question: "How  many tracks the maximum number of tracks one can participate in?   ",

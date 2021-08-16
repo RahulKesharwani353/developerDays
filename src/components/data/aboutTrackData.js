@@ -176,6 +176,22 @@ const Track=[
     linkedIn:"https://www.linkedin.com/in/punitweb/",
     insta:"https://www.instagram.com/punitchawlaofficial/",
     twitter:"https://twitter.com/punitweb"
+  },
+  {
+    image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2FUI%2Fvaishnavi_formal-min.jpg?alt=media&token=0be2e1e2-9eda-4036-9672-0d293323b381",
+    name:"Vaishnavi Dwivedi",
+    designation:"Product @ BottleHQ",
+    linkedIn:"https://linkedin.com/dwvicy",
+    insta:"https://instagram.com/dwvicy",
+    twitter:"https://twitter.com/dwivivivi"
+  },
+  {
+    image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2FUI%2FIMG_07389-min.jpg?alt=media&token=b0ec34ad-175c-4ed3-b365-f8367073e152",
+    name:"Ameya Nikose",
+    designation:"UX Designer at Jio",
+    linkedIn:"https://www.linkedin.com/in/ameya-nikose-551938145",
+    insta:"https://www.instagram.com/ameyanikose/",
+    twitter:"https://www.twitter.com/ameyanikose"
   }]
 },
 

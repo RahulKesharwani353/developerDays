@@ -34,7 +34,7 @@ const Swags=[{
         },
         {
             images: require('../../assets/images/sponsorslogo/Celo Logo Color.png').default,
-            subTitle: "Tezos Bounty Prize",
+            subTitle: "Celo Bounty Prize",
             desc: "₹20,000 for best app built on Celo continuity Support",
             border: "rgb(63 210 131)"
         },
