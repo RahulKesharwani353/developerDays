@@ -38,12 +38,12 @@ const Hero = (props) => {
                 </a>
               </button> */} 
               <div 
-	className="apply-button" 
-	data-hackathon-slug="developerdays" 
-	data-button-theme="dark-inverted"
-  style={{width:'280px'}}
-></div>
-<p>August 22 - September 26, 2021</p>
+                className="apply-button" 
+                data-hackathon-slug="developerdays" 
+                data-button-theme="dark-inverted"
+                style={{width:'280px'}}
+              ></div>
+              <p>August 22 - September 26, 2021</p>
             </Col>
             <Col className={styl.HeroRight}>
               <img src={props.svg} alt="svg" />

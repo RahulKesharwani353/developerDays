@@ -7,44 +7,38 @@ import gold from '../assets/images/gold.svg'
 import bronze from '../assets/images/bronze.svg'
 import silver from '../assets/images/silver.svg'
 import dev from '../assets/images/sponsorslogo/Devfolio_Logo-Colored.svg'
-import swao from '../assets/images/sponsorslogo/sawolabs.png'
+import sawo from '../assets/images/sponsorslogo/sawolabs.png'
 
 const Sponsors = () => {
 
-    console.log(sponsorsData)
+    // console.log(sponsorsData)
     return (
         <>
            <Container id="sponsors">
-        <Col>
-            <div className="sub-heading">Sponsors</div>
+            <Col>
+                <div className="sub-heading">Sponsors</div>
             </Col>
             <Col>
-            <div className="heading">Thanks for making this event successful</div>
+                <div className="heading">Thanks for making this event successful</div>
             </Col>
             <br/>
             <Row style={{justifyContent: 'center'}}>
-                
-                
                 <Col className={s_css.sponsorsLogo} >
-                <h4>Diamond Sponsors💎</h4>
+                    <h4>Diamond Sponsors 💎</h4>
                 <br/>
-                <div>
-                <a href="https://devfolio.co/" target="_blank" rel="noreferrer"><img src={dev} alt="sponsor logo" /></a> 
-                </div>
+                    <div>
+                    <a href="https://devfolio.co/" target="_blank" rel="noreferrer"><img src={dev} alt="sponsor logo" /></a> 
+                    </div>
                 </Col>
                 <Col className={s_css.sponsorsLogo} >
-                <h4>Authentication Partner🤝</h4>
-                <br/>
-                <a href="https://sawolabs.com/" target="_blank" rel="noreferrer"><img src= {swao} alt="sponsor logo" style={{width:'40%'}}/></a> 
+                    <h4>Authentication Partner 🤝</h4>
+                    <br/>
+                    <a href="https://sawolabs.com/" target="_blank" rel="noreferrer"><img src= {sawo} alt="sponsor logo" style={{width:'40%'}}/></a> 
                 </Col>
             </Row>
-            
-            <br/>
-            <br/>
-        
-            <br/>
-            <br/>
-            <h4>Gold Sponsors<img src={gold} alt="gold" /></h4>
+            <br/><br/><br/><br/>
+
+            <h4>Gold Sponsors <img src={gold} alt="gold"/></h4>
             <Row style={{justifyContent: 'center'}}>
             {
                 sponsorsData[0].gold.map((elem,index)=>{
@@ -59,9 +53,8 @@ const Sponsors = () => {
               
             </Row>
             
-            <br/>
-            <br/>
-            <h4>Silver Sponsors<img src={silver} alt="gold" /></h4>
+            <br/><br/>
+            <h4>Silver Sponsors <img src={silver} alt="gold" /></h4>
             <Row  style={{justifyContent: 'center'}}>
             {
                 sponsorsData[0].silver.map((elem,index)=>{
@@ -75,9 +68,8 @@ const Sponsors = () => {
             }
               
             </Row>
-            <br/>
-            <br/>
-            <h4>Bronze Sponsors<img src={bronze} alt="gold" /></h4>
+            <br/><br/>
+            <h4>Bronze Sponsors <img src={bronze} alt="gold" /></h4>
             <Row style={{justifyContent: 'center'}}>
             {
                 sponsorsData[0].bronze.map((elem,index)=>{
@@ -110,7 +102,7 @@ const Sponsors = () => {
             </Row> */}
 
             <Col style={{textAlign:'center', marginTop:'20px'}}>
-            <button className={s_css.sponsourUs} ><a href="mailto:sponsorship@developerdays.tech">Sponsor Us</a> </button>
+            <button className={s_css.sponsorUs} ><a href="mailto:sponsorship@developerdays.tech">Sponsor Us</a> </button>
             </Col>
 
         </Container>  

@@ -95,8 +95,19 @@
     width: 16px;
     margin-right: 8px;
 }
-
-
+.sessionCont{
+    padding-bottom: 1rem;
+}
+.challenge_detail{
+    padding-top: 0.3rem;
+}
+.skills{
+    margin-bottom: 2rem;
+}
+.skill:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s;
+}
 
 @media screen and (max-width: 768px){
 
@@ -114,4 +125,4 @@
     .weekContainer h3{
         font-size: 25px;
     }
-  }
+}

@@ -26,7 +26,7 @@ const partners = [{
 
 },
 {
-    images:  require('../../assets/images/communitypartner/16288033386341000011.png').default,
+    images:  require('../../assets/images/communitypartner/devstrons.png').default,
             ref: "https://linktr.ee/devstrons"
 
 },
@@ -34,6 +34,12 @@ const partners = [{
     images:  require('../../assets/images/communitypartner/TFUGS Logo -Chandigarh.png').default,
             ref: "https://www.meetup.com/tensorflow-user-group-chandigarh/"
 
-}]
+},
+{
+    images:  require('../../assets/images/communitypartner/cncf_durg.jpg').default,
+            ref: "https://community.cncf.io/durg/"
+
+}
+]
 
 export default partners

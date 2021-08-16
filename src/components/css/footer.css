@@ -72,6 +72,9 @@
 	margin-bottom: 5px;
 	margin: 8px;
 }
+.footer-distributed .footer-icons a:hover, .footer-distributed .footer-icons a:focus{
+	opacity: 0.8;
+}
 
 .footer-icons img{
 	height: 30px;
