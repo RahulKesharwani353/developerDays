@@ -9,7 +9,6 @@
     text-align: center;
     padding: 25px;
     margin-top: 40px;
-
 }
 .swagBox h5{
     font-weight: 700;
@@ -17,8 +16,14 @@
 }
 .swagBox p{
     font-size: 12px;
+    margin-top: -1rem;
 }
 .swagBox img{
     width: 120px;
-    margin-bottom: 35px;
+    margin-bottom: 26px;
+}
+
+.swagBox:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ;
 }

@@ -1,12 +1,11 @@
 import React from 'react';
-
 import { Accordion, Col, Row, Container } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/faq.css'
 
 const ques=[{
   question: "When will Developer Days start and for how long will it continue?",
-  ans: "The league of Developer Dyas will start from the 22nd of August and will continue for 5 weeks.  "
+  ans: "The league of Developer Days will start from the 22nd of August and will continue for 5 weeks.  "
 },
 {
   question: "How  many tracks the maximum number of tracks one can participate in?   ",
@@ -42,37 +41,32 @@ const ques=[{
 const FAQs = () => {
   return (
     <Container>
-         <Col>
-            <div className="sub-heading">FAQs</div>
-            </Col>
-    <Accordion>
-      <Row>
-        {
-          ques.map((e,index)=>{
-            const {question, ans}=e;
-            return(
-        
-              <Col lg={6} key={index}>
-          
-              <div className="accordion-item">
-              <Accordion.Toggle className="accordion-item-header" eventKey={index+1}>
-                           {question}
-                       </Accordion.Toggle>
-                       <Accordion.Collapse className="accordion-item-body" eventKey={index+1}>
-                         <p className="accordion-item-body-content">{ans}</p>
-               </Accordion.Collapse>
-              </div>
-                   </Col>
-            )
-          })
-        }
-    
-      </Row>
-
-
-    </Accordion>
-    <hr/>
-</Container>
+      <Col>
+        <div className="sub-heading">FAQs</div>
+      </Col>
+      <Accordion>
+        <Row>
+          {
+            ques.map((e,index)=>{
+              const {question, ans} = e;
+              return(
+                <Col lg={6} key={index}>
+                  <div className="accordion-item">
+                    <Accordion.Toggle className="accordion-item-header" eventKey={index+1}>{question}
+                    </Accordion.Toggle>
+                    <Accordion.Collapse className="accordion-item-body" eventKey={index+1}>
+                      <p className="accordion-item-body-content">{ans}</p>
+                    </Accordion.Collapse>
+                  </div>
+                </Col>
+              )
+            })
+          }
+      
+        </Row>
+      </Accordion>
+      <hr/>
+    </Container>
   );
 };
 

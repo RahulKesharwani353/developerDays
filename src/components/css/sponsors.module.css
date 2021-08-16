@@ -1,4 +1,3 @@
-
 .sponsorsLogo{
   text-align: center;
   margin-top: 25px;
@@ -9,33 +8,31 @@
   margin-bottom: auto;
 }
 .sponsorsLogo img{
-    width: 65%;
-    margin-top: auto;
-    margin-bottom: auto;
+  width: 65%;
+  margin-top: auto;
+  margin-bottom: auto;
   object-fit:contain;
 }
 .sponsorsLogo img:hover{
     transform: scale(1.1);
-	transition: all 0.3s linear 0s;
+	  transition: ease-in-out 1s linear 0s;
 }
-.sponsourUs{
+.sponsorUs{
 	border-radius: 40px;
 	font-weight: bold;
   color: rgba(242,246,255,1);
 	padding: .7em 2em;
-
-background: linear-gradient(202deg, #1BCCE1  0%, #471069 70%);
-border: none;
-width:200px;
-position: relative;
-top: 25px;
-transition: ease .6s ;
+  background: linear-gradient(202deg, #1BCCE1  10%, #471069 70%);
+  border: none;
+  width:200px;
+  position: relative;
+  top: 25px;
+  transition: ease-in-out .6s ;
 }
-.sponsourUs:hover{
+.sponsorUs:hover{
 	box-shadow: inset 200px 0 0 0 #471069;
-
 }
-.sponsourUs a{
+.sponsorUs a{
   text-decoration: none;
   color: rgba(242,246,255,1);
 }
@@ -46,17 +43,17 @@ transition: ease .6s ;
 	font-weight: bold;
   color: rgba(242,246,255,1);
 	padding: .7em 2em;
-
-background: linear-gradient(202deg, #2C8BF7  0%,  #EA5459 70%);
-border: none;
-width: 300px;
-position: relative;
-top: 25px;
-transition: ease .6s ;
+  /* background: linear-gradient(202deg, #2C8BF7  0%,  #EA5459 70%); */
+  background: linear-gradient(270deg, #4e7d9f, #cd0303);
+  border: none;
+  width: 300px;
+  position: relative;
+  top: 25px;
+  transition: ease-in-out .6s ;
 }
-.becomeComunity:hover{
-	box-shadow: inset 300px  0 0 #EA5459;
-
+.becomeComunity:hover,.becomeComunity:focus{
+	/* box-shadow: inset 300px 0 10px 0 #EA5459; */
+  box-shadow: inset 300px 0 10px 0 #cd0303;
 }
 .becomeComunity a{
   text-decoration: none;
