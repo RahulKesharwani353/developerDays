@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Accordion, Col, Row, Container } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/faq.css'
@@ -42,37 +41,32 @@ const ques=[{
 const FAQs = () => {
   return (
     <Container>
-         <Col>
-            <div className="sub-heading">FAQs</div>
-            </Col>
-    <Accordion>
-      <Row>
-        {
-          ques.map((e,index)=>{
-            const {question, ans}=e;
-            return(
-        
-              <Col lg={6} key={index}>
-          
-              <div className="accordion-item">
-              <Accordion.Toggle className="accordion-item-header" eventKey={index+1}>
-                           {question}
-                       </Accordion.Toggle>
-                       <Accordion.Collapse className="accordion-item-body" eventKey={index+1}>
-                         <p className="accordion-item-body-content">{ans}</p>
-               </Accordion.Collapse>
-              </div>
-                   </Col>
-            )
-          })
-        }
-    
-      </Row>
-
-
-    </Accordion>
-    <hr/>
-</Container>
+      <Col>
+        <div className="sub-heading">FAQs</div>
+      </Col>
+      <Accordion>
+        <Row>
+          {
+            ques.map((e,index)=>{
+              const {question, ans} = e;
+              return(
+                <Col lg={6} key={index}>
+                  <div className="accordion-item">
+                    <Accordion.Toggle className="accordion-item-header" eventKey={index+1}>{question}
+                    </Accordion.Toggle>
+                    <Accordion.Collapse className="accordion-item-body" eventKey={index+1}>
+                      <p className="accordion-item-body-content">{ans}</p>
+                    </Accordion.Collapse>
+                  </div>
+                </Col>
+              )
+            })
+          }
+      
+        </Row>
+      </Accordion>
+      <hr/>
+    </Container>
   );
 };
 

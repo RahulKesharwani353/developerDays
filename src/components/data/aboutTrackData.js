@@ -211,10 +211,10 @@ const Track=[
         skill:"Material Designing"
     },
     {
-        skill:"xml"
+        skill:"XML"
     },
     {
-        skill:"Oops"
+        skill:"OOPS"
     },
     {
         skill:"Android"

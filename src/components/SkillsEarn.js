@@ -12,7 +12,7 @@ const SkillsEarn = (props) => {
             (elem,index)=>{
                 const {skill} =elem;
                 return (
-                    <button key={index}>{skill}</button>
+                    <button key={index} className={styl.skill}>{skill}</button>
                 )
             }
           )

@@ -24,7 +24,7 @@ const Swags = () => {
                              <br/>
                              <h6>{subTitle}</h6>
                              <br/>
-                             <p>{desc}</p>
+                             <p className={styl.desc}>{desc}</p>
                          </div>
                             </Col>
                         )
