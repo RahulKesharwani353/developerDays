@@ -39,6 +39,11 @@ const partners = [{
     images:  require('../../assets/images/communitypartner/cncf_durg.jpg').default,
             ref: "https://community.cncf.io/durg/"
 
+},
+{
+    images:  require('../../assets/images/communitypartner/GDSC Bhilai Institute of Technology Durg vertical color.png').default,
+            ref: "https://www.linkedin.com/company/gdscbitd/"
+
 }
 ]
 

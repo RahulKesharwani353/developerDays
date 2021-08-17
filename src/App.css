@@ -33,6 +33,10 @@ NavDropdown{
 .nav-item:hover{
   text-decoration: none!important;
 }
+.dropdown-menu {
+  background: rgba(242,246,255,1 )!important;
+
+}
 .landingClipArt{
   height: 600px;
   align-self: flex-end;
