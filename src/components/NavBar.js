@@ -20,9 +20,12 @@ const NavBar = () => {
           {/* <Nav.Link href="/home">About Us</Nav.Link> */}
         
           <NavDropdown title="About Tracks" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="/track/0">Web Development</NavDropdown.Item>
+            <div className="nav-box">
+<NavDropdown.Item  href="/track/0">Web Development</NavDropdown.Item>
             <NavDropdown.Item href="/track/1">UI/UX Designing</NavDropdown.Item>
             <NavDropdown.Item href="/track/2">Android Development</NavDropdown.Item>
+            </div>
+            
           </NavDropdown>
           <Nav.Link href="/leaderboard">Leaderboard</Nav.Link>
           <Nav.Link href="/home#Swags">Swags</Nav.Link>
