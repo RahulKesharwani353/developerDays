@@ -100,7 +100,7 @@ const ShedulePage = () => {
                 <td>{day}</td>
                 <td>{time}</td>
                 <td>{event}</td>
-                <td>{link}</td>
+                <td><a href={link} target="_blank" rel="noreferrer" >Click Here</a></td>
               </tr>
             );
           })}
