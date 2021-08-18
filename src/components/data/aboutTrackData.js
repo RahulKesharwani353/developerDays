@@ -68,7 +68,7 @@ const Track=[
         session_2_detail: "In this session, we will try to integrate MongoDB with our web application, make sure you get ready to attend",
         challange_head: "Challenges",
         challange_detail: "Available Soon!",
-        session_1_dates:"10 September, 2021",
+        session_1_dates:"9 September, 2021",
         session_2_dates:"11 September, 2021"
     },
     {
@@ -106,6 +106,14 @@ const Track=[
         linkedIn:"https://www.linkedin.com/in/rakshaa-viswanathan-0aa891199/",
         insta:"",
         twitter:"https://twitter.com/RakshaaViswana1"
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2FUI%2FWhatsApp%20Image%202021-08-18%20at%2012.05.28%20PM.jpeg?alt=media&token=40ccd1b1-1eb8-465c-a19d-acc4709c0b6e",
+        name:"Nishchal Singi",
+        designation:"Gsoc student",
+        linkedIn:"https://www.linkedin.com/in/nishchal-singi-6b37901ab/",
+        insta:"https://www.instagram.com/inishchal.phoenix/",
+        twitter:"https://twitter.com/SingiNishchal"
       }]
   },
   {
@@ -220,6 +228,9 @@ const Track=[
         skill:"Android"
     },
     {
+        skill:"MVVM Architecture"
+    },
+    {
       skill:"Firebase"
   },
   {
@@ -242,7 +253,7 @@ const Track=[
   {
       session_1_head: "Developing Multi-Pages Application",
       session_1_detail: "In this session, we will try our hands-on and build the projects with multiple pages.",
-      session_2_head: "Deep-Dive in Android Development: Core Concept Of Recycler View",
+      session_2_head: "Hands-on of MVVM architecture & API calling",
       session_2_detail: "Recycler View plays the major role in development of any app, it is important to learn. In this session we will build projects using Recycler and Card View.",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
