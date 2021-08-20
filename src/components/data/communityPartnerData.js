@@ -44,6 +44,11 @@ const partners = [{
     images:  require('../../assets/images/communitypartner/GDSC Bhilai Institute of Technology Durg vertical color.png').default,
             ref: "https://www.linkedin.com/company/gdscbitd/"
 
+},
+{
+    images:  require('../../assets/images/communitypartner/codeflow_logo.png').default,
+            ref: "https://www.linktr.ee/codefloworg"
+
 }
 ]
 
