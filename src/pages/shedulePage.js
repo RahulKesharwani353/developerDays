@@ -8,74 +8,76 @@ const ShedulePage = () => {
   const [week3, setWeek3] = useState([]);
   const [week4, setWeek4] = useState([]);
   const [week5, setWeek5] = useState([]);
-  const csv = require("csvtojson");
-  const getData = async () => {
-    try {
-      await fetch(
-        "https://docs.google.com/spreadsheets/d/12IgiVcgfdqZZa2xqqrGrPK3NewPkgCagrfvgOk-MK-k/export?format=csv"
-      )
-        .then((result) => result.text())
-        .then((csvtext) => {
-          return csv().fromString(csvtext);
-        })
-        .then((csvRow) => {
-          setWeek1(csvRow);
-        });
-
-      await fetch(
-        "https://docs.google.com/spreadsheets/d/12IgiVcgfdqZZa2xqqrGrPK3NewPkgCagrfvgOk-MK-k/export?format=csv&gid=499798765"
-      )
-        .then((result) => result.text())
-        .then((csvtext) => {
-          return csv().fromString(csvtext);
-        })
-        .then((csvRow) => {
-          setWeek2(csvRow);
-        });
 
 
+  useEffect(() => {
+    const csv = require("csvtojson");
+    const getData = async () => {
+      try {
         await fetch(
-          "https://docs.google.com/spreadsheets/d/12IgiVcgfdqZZa2xqqrGrPK3NewPkgCagrfvgOk-MK-k/export?format=csv&gid=1982263128"
+          "https://docs.google.com/spreadsheets/d/12IgiVcgfdqZZa2xqqrGrPK3NewPkgCagrfvgOk-MK-k/export?format=csv"
         )
           .then((result) => result.text())
           .then((csvtext) => {
             return csv().fromString(csvtext);
           })
           .then((csvRow) => {
-            setWeek3(csvRow);
+            setWeek1(csvRow);
           });
-
-
+  
+        await fetch(
+          "https://docs.google.com/spreadsheets/d/12IgiVcgfdqZZa2xqqrGrPK3NewPkgCagrfvgOk-MK-k/export?format=csv&gid=499798765"
+        )
+          .then((result) => result.text())
+          .then((csvtext) => {
+            return csv().fromString(csvtext);
+          })
+          .then((csvRow) => {
+            setWeek2(csvRow);
+          });
+  
+  
           await fetch(
-            "https://docs.google.com/spreadsheets/d/12IgiVcgfdqZZa2xqqrGrPK3NewPkgCagrfvgOk-MK-k/export?format=csv&gid=128104643"
+            "https://docs.google.com/spreadsheets/d/12IgiVcgfdqZZa2xqqrGrPK3NewPkgCagrfvgOk-MK-k/export?format=csv&gid=1982263128"
           )
             .then((result) => result.text())
             .then((csvtext) => {
               return csv().fromString(csvtext);
             })
             .then((csvRow) => {
-              setWeek4(csvRow);
+              setWeek3(csvRow);
             });
-
+  
+  
             await fetch(
-              "https://docs.google.com/spreadsheets/d/12IgiVcgfdqZZa2xqqrGrPK3NewPkgCagrfvgOk-MK-k/export?format=csv&gid=1688075744"
+              "https://docs.google.com/spreadsheets/d/12IgiVcgfdqZZa2xqqrGrPK3NewPkgCagrfvgOk-MK-k/export?format=csv&gid=128104643"
             )
               .then((result) => result.text())
               .then((csvtext) => {
                 return csv().fromString(csvtext);
               })
               .then((csvRow) => {
-                setWeek5(csvRow);
+                setWeek4(csvRow);
               });
-    } catch (error) {
-      console.log(error);
-    }
-  };
   
-
-  useEffect(() => {
+              await fetch(
+                "https://docs.google.com/spreadsheets/d/12IgiVcgfdqZZa2xqqrGrPK3NewPkgCagrfvgOk-MK-k/export?format=csv&gid=1688075744"
+              )
+                .then((result) => result.text())
+                .then((csvtext) => {
+                  return csv().fromString(csvtext);
+                })
+                .then((csvRow) => {
+                  setWeek5(csvRow);
+                });
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    
+  
     getData();
-  });
+  },[]);
 
   function TableView(props) {
     return (

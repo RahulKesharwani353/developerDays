@@ -181,9 +181,9 @@ const Track=[
     image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2FUI%2Fpunit%20chawla.jpg?alt=media&token=f8815a45-5be8-4ae5-8109-e4a3761c74dd",
     name:"Punit Chawla",
     designation:"Founder at DesignWings",
-    linkedIn:"https://www.linkedin.com/in/punitweb/",
-    insta:"https://www.instagram.com/punitchawlaofficial/",
-    twitter:"https://twitter.com/punitweb"
+    youtube:"https://www.youtube.com/c/PunitChawla/featured",
+    dribble: "https://dribbble.com/punitweb",
+    behance:"https://www.behance.net/punitweb"
   },
   {
     image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2FUI%2Fvaishnavi_formal-min.jpg?alt=media&token=0be2e1e2-9eda-4036-9672-0d293323b381",
