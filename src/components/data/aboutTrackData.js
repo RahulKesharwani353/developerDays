@@ -123,6 +123,14 @@ const Track=[
         twitter:"https://twitter.com/skxrxn"
       },
       {
+        image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2Fmohitbhat_img.jpg?alt=media&token=639de79d-0fe0-4d9f-b355-ca62ca4a4c53",
+        name:"Mohit Bhatt",
+        designation:"Blockchain and Full stack developer | GSoC Student",
+        linkedIn:"https://www.linkedin.com/in/mbcse/",
+        insta:"https://www.instagram.com/mbmohit5/",
+        twitter:"https://www.twitter.com/mbcse50"
+      },
+      {
         image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2Fabir.jpeg?alt=media&token=88542122-011c-4bb3-87b4-3d652c94cca7",
         name:"Abir Pal",
         designation:"Engineering Intern at Affinidi | Fellow at M.L.H",
@@ -132,7 +140,7 @@ const Track=[
       {
         image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2FUI%2FWhatsApp%20Image%202021-08-18%20at%2012.05.28%20PM.jpeg?alt=media&token=40ccd1b1-1eb8-465c-a19d-acc4709c0b6e",
         name:"Nishchal Singi",
-        designation:"Gsoc student",
+        designation:"GSoC student",
         linkedIn:"https://www.linkedin.com/in/nishchal-singi-6b37901ab/",
         insta:"https://www.instagram.com/inishchal.phoenix/",
         twitter:"https://twitter.com/SingiNishchal"
