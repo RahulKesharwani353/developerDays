@@ -49,6 +49,11 @@ const partners = [{
     images:  require('../../assets/images/communitypartner/codeflow_logo.png').default,
             ref: "https://www.linktr.ee/codefloworg"
 
+},
+{
+    images:  require('../../assets/images/communitypartner/devscriptBlue.png').default,
+            ref: "https://devscript.org/"
+
 }
 ]
 

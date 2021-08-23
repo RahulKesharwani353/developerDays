@@ -99,13 +99,35 @@ const Track=[
         insta:"https://www.instagram.com/praveenscience/",
         twitter:"https://twitter.com/praveenscience"
       },
+    //   {
+    //     image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2FRakshaa.png?alt=media&token=3be9a4ac-bce1-4749-be06-140cc5f47be1",
+    //     name:"Rakshaa Viswanathan",
+    //     designation:"SDE Intern at Microsoft",
+    //     linkedIn:"https://www.linkedin.com/in/rakshaa-viswanathan-0aa891199/",
+    //     insta:"",
+    //     twitter:"https://twitter.com/RakshaaViswana1"
+    //   },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2FRakshaa.png?alt=media&token=3be9a4ac-bce1-4749-be06-140cc5f47be1",
-        name:"Rakshaa Viswanathan",
-        designation:"SDE Intern at Microsoft",
-        linkedIn:"https://www.linkedin.com/in/rakshaa-viswanathan-0aa891199/",
-        insta:"",
-        twitter:"https://twitter.com/RakshaaViswana1"
+        image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2Fsoumaya.jpeg?alt=media&token=f485ad3f-dc6a-476f-95cb-7c61d6d8aa92",
+        name:"Soumaya Ranjan",
+        designation:"Founding Team | Engineering Lead at SAWO Labs",
+        linkedIn:"https://www.linkedin.com/in/soumayaranjan/",
+        twitter:"https://twitter.com/big_daddy2802"
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2Fsreekaran.jpeg?alt=media&token=2499d30d-76a1-4030-a1fd-2a6a4602dfdd",
+        name:"Sreekaran S.",
+        designation:"Mentor @Major League Hacking | Software Engineer",
+        linkedIn:"https://www.linkedin.com/in/sreekaransrinath/",
+        insta:"https://www.instagram.com/skxrxn/",
+        twitter:"https://twitter.com/skxrxn"
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2Fabir.jpeg?alt=media&token=88542122-011c-4bb3-87b4-3d652c94cca7",
+        name:"Abir Pal",
+        designation:"Engineering Intern at Affinidi | Fellow at M.L.H",
+        linkedIn:"https://www.linkedin.com/in/imabp/",
+        twitter:"https://twitter.com/imabptweets"
       },
       {
         image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2FUI%2FWhatsApp%20Image%202021-08-18%20at%2012.05.28%20PM.jpeg?alt=media&token=40ccd1b1-1eb8-465c-a19d-acc4709c0b6e",
@@ -114,6 +136,13 @@ const Track=[
         linkedIn:"https://www.linkedin.com/in/nishchal-singi-6b37901ab/",
         insta:"https://www.instagram.com/inishchal.phoenix/",
         twitter:"https://twitter.com/SingiNishchal"
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2Fweb%2Fkuldeep.jpeg?alt=media&token=ab57263d-54df-4b7a-9514-dac2822518a2",
+        name:"Kuldeep Patel",
+        designation:"Technical Lead at TechnoHub and Developer Student Community",
+        linkedIn:"https://www.linkedin.com/in/patelkuldeep/",
+        twitter:"https://twitter.com/patelkuldeep0"
       }]
   },
   {
