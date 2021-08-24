@@ -17,7 +17,8 @@ const weekDetails = (props) => {
             
             {
             props.SessionsDetail.map((elem,index)=>{
-              const {session_1_head,session_1_detail, session_2_head, session_2_detail,challange_head, challange_detail,session_1_dates, session_2_dates} = elem;
+              const {session_1_head,session_1_detail, session_2_head, session_2_detail,challange_head, 
+                challange_detail,session_1_dates, session_2_dates, challenges_date, challenges_pdf, challenges_submit} = elem;
               return (   
                 <>
                 <Row className={styl.weekContainer} key={index}>
@@ -43,7 +44,22 @@ const weekDetails = (props) => {
                     <div className={styl.sessionCont}>
                     <div style={{display:'flex'}}><img src={challanges} alt="date"/>
                     <h3>{challange_head}</h3></div>
-                    <p style={{whiteSpace:'pre-line'}} className={styl.challenge_detail}>{challange_detail}</p>
+                    {
+                      challenges_date && <div className={styl.date}><img src={clnd} alt="icon"/>{challenges_date}</div>
+                    }
+                    <p style={{whiteSpace:'pre-line'}} className={styl.challenge_detail}>{challange_detail}
+                    {
+                      challenges_pdf && <a href={challenges_pdf} target="_blank" rel="noreferrer" > Week1 Challenge</a> 
+                    }
+                    {
+
+                      challenges_submit && <div>
+                        <a href="https://linktr.ee/DevDaysChallenges" target="_blank" rel="noreferrer" >Submit Here</a> 
+                      </div>
+                    }
+                  
+                    </p>
+                    
                     </div>
                 </Col>
                 </Row>

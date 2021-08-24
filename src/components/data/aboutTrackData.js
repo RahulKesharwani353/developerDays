@@ -171,9 +171,12 @@ const Track=[
       session_2_head: "Ideation, Research",
       session_2_detail: " Target audience, goals & outcomes, User personas",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!",
+      challange_detail: "Challenge of week 1 is out !",
       session_1_dates:"23 August, 2021",
-      session_2_dates:"24 August, 2021"
+      session_2_dates:"24 August, 2021",
+      challenges_date:"Submit Before, 29 August",
+      challenges_pdf:"https://docs.google.com/document/d/1e2yaK16ypbY4jAI3Va2L56dDL-XN7wnA0VJ0xNCJ0_M/edit",
+      challenges_submit:"https://linktr.ee/DevDaysChallenges"
   },
   {
       session_1_head: "Non-visual prototyping",
