@@ -294,9 +294,11 @@ const Track=[
       session_2_head: "Getting Started With Android Development: Single page app",
       session_2_detail: "In this session, we will deep dive into the basics of Kotlin in android and try to implement it in our project",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!",
+      challange_detail: "You have to Develop any *one* of the following app:\n- Basic convertor App (weight convertor/ currency convertor/ height convertor, etc)\n- Own Visiting Card app (single page)\n- Basic calculator app",
       session_1_dates:"25 August, 2021",
-      session_2_dates:"26 August, 2021"
+      session_2_dates:"26 August, 2021",
+      challenges_date:"Submit Before, 01 September",
+      challenges_submit:"https://linktr.ee/DevDaysChallenges"
   },
   {
       session_1_head: "Developing Multi-Pages Application",
