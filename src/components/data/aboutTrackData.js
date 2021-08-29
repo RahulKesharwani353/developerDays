@@ -47,9 +47,11 @@ const Track=[
         session_2_head: "1. Javascript\n2.Frontend with React",
         session_2_detail: "In this session, we will deep dive into the basics of javascript and try to implement it in our project, Managing several components in your website is chaotic, so in this session, we will guide you on how to tackle this problem using react.",
         challange_head: "Challenges",
-        challange_detail: "Available Soon!",
+        challange_detail: "1. Make a Calculator Web App/Counter Button Using Javascript\n2. Design the frontend of your portfolio website using ReactJS",
         session_1_dates:"27 August, 2021",
-        session_2_dates:"28 August, 2021 and 29 August, 2021"
+        session_2_dates:"28 August, 2021 and 29 August, 2021",
+        challenges_date:"Submit Before, 05 September",
+        challenges_submit:"https://linktr.ee/DevDaysChallenges"
     },
     {
         session_1_head: "Backend with Node.js ",
@@ -248,6 +250,14 @@ const Track=[
     linkedIn:"https://www.linkedin.com/in/ameya-nikose-551938145",
     insta:"https://www.instagram.com/ameyanikose/",
     twitter:"https://www.twitter.com/ameyanikose"
+  },
+  {
+    image:"https://firebasestorage.googleapis.com/v0/b/developerdays.appspot.com/o/speakers21%2FUI%2FWhatsApp%20Image%202021-08-28%20at%209.39.09%20PM.jpeg?alt=media&token=1b748aa6-e4f8-4524-9386-d230b75b69c9",
+    name:"Ashish Kashyap",
+    designation:"Product Designer | Figma Community Advocate",
+    linkedIn:"https://www.linkedin.com/in/ashdesigns/detail/contact-info/",
+    dribble:"https://dribbble.com/Ash_uxi",
+    behance:"https://www.behance.net/ashishkashyap"
   }]
 },
 

@@ -62,22 +62,22 @@ const speakers = (props) => {
                  }
                   {
                     youtube &&  <li>
-                    <a href={twitter} target="_blank" rel="noreferrer" >
+                    <a href={youtube} target="_blank" rel="noreferrer" >
                       <i className="fab fa-youtube"></i>
                     </a>
                   </li>
                   }
                   {
                     behance &&  <li>
-                    <a href={twitter} target="_blank" rel="noreferrer" >
+                    <a href={behance} target="_blank" rel="noreferrer" >
                       <i className="fab fa-behance"></i>
                     </a>
                   </li>
                   }
                   {
                     dribble &&  <li>
-                    <a href={twitter} target="_blank" rel="noreferrer" >
-                      <i className="fab fa-dibbble"></i>
+                    <a href={dribble} target="_blank" rel="noreferrer" >
+                    <i class="fab fa-dribbble"></i>
                     </a>
                   </li>
                   }
