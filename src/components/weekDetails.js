@@ -49,7 +49,7 @@ const weekDetails = (props) => {
                     }
                     <p style={{whiteSpace:'pre-line'}} className={styl.challenge_detail}>{challange_detail}
                     {
-                      challenges_pdf && <a href={challenges_pdf} target="_blank" rel="noreferrer" > Week1 Challenge</a> 
+                      challenges_pdf && <a href={challenges_pdf} target="_blank" rel="noreferrer" > View Challenge</a> 
                     }
                     {
 

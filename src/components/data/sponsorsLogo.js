@@ -48,6 +48,10 @@ const logos=[
             ref: "https://celo.org/"
         },
         {
+            images: require('../../assets/images/sponsorslogo/Filecoin.png').default,
+            ref: "https://filecoin.io/"
+        },
+        {
             images: require('../../assets/images/sponsorslogo/coinswitch-kuber-original.png').default,
             ref: "https://coinswitch.co/"
         }
