@@ -33,6 +33,12 @@ const Swags=[{
             border: "#8247e5"
         },
         {
+            images: require('../../assets/images/sponsorslogo/Filecoin.png').default,
+            subTitle: "Filecoin Bounty Prize",
+            desc: "₹20,000 for best use of IPFS and/or Filecoin",
+            border: "#5d9bf8"
+        },
+        {
             images: require('../../assets/images/sponsorslogo/Celo Logo Color.png').default,
             subTitle: "Celo Bounty Prize",
             desc: "₹20,000 for best app built on Celo continuity Support",

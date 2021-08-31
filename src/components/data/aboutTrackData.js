@@ -202,9 +202,12 @@ const Track=[
       session_2_head: "Visual research ",
       session_2_detail: "(preparing moodboard) + Heuristic evaluation",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!",
+      challange_detail: "Challenges of week 2 are out !",
       session_1_dates:"30 August, 2021",
-      session_2_dates:"31 August, 2021"
+      session_2_dates:"31 August, 2021",
+      challenges_date:"Submit Before, 07 September",
+      challenges_pdf:"https://docs.google.com/document/d/18MP_eC9S75sEd3r5rlgj6RnMld2I5AjICvRF7KCRBWc/edit?usp=sharing",
+      challenges_submit:"https://linktr.ee/DevDaysChallenges"
   },
   {
       session_1_head: "Figma",
