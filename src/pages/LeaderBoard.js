@@ -102,6 +102,10 @@ const LeaderBoard = () => {
             <TableView data = {UiUx} setData = {setUiUX} />
           </Col>
         </Row>
+        <Row  style={{ fontWeight: "bold", marginTop:"20px", marginLeft:"10px" }} >
+          <p>view complete points Table </p><a href="https://docs.google.com/spreadsheets/d/16wU8IICfvjI1oYFYBmqFKAF1GmyYV3uwMhik7kpwvbc/edit?usp=sharing" 
+          target="_blank" rel="noreferrer"><span/> Here </a>
+        </Row>
       </Container>
     </>
   );
