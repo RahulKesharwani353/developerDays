@@ -48,10 +48,6 @@ const LeaderBoard = () => {
                 return (
                   <tr key={index}>
                     <td><p className={styl.rankBg}
-                      style={ index === 0? {background:"#FFC364", color:"white"}:
-                      index === 1? {background:"#A8A8A8", color:"white"}:
-                      index === 2? {background:"#985D19", color:"white"}:
-                    {background:"white"}}
                     >{index + 1}</p></td>
                     <td>{name}</td>
                     <td>{points}</td>
@@ -103,8 +99,11 @@ const LeaderBoard = () => {
           </Col>
         </Row>
         <Row  style={{ fontWeight: "bold", marginTop:"20px", marginLeft:"10px" }} >
-          <p>view complete points Table </p><a href="https://docs.google.com/spreadsheets/d/16wU8IICfvjI1oYFYBmqFKAF1GmyYV3uwMhik7kpwvbc/edit?usp=sharing" 
-          target="_blank" rel="noreferrer"><span/> Here </a>
+          <p>View Complete Points-</p> <a href="https://docs.google.com/spreadsheets/d/16wU8IICfvjI1oYFYBmqFKAF1GmyYV3uwMhik7kpwvbc/edit?usp=sharing" 
+          target="_blank" rel="noreferrer"> <span/> Here </a>
+        </Row>
+        <Row>
+        <p>*Participants with the same points have the same rank, while the leaderboard is arranged alphabetically</p>
         </Row>
       </Container>
     </>
