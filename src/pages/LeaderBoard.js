@@ -5,8 +5,8 @@ import svg from "../assets/images/leaderboards.svg";
 
 const LeaderBoard = () => {
   var [UiUx, setUiUX] = useState("");
-  var [android, setAndroid] = useState("");
-  var [web, setWeb] = useState("");
+  // var [android, setAndroid] = useState("");
+  // var [web, setWeb] = useState("");
 
   useEffect(() => {
     const csv = require("csvtojson");
