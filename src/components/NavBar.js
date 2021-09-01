@@ -28,7 +28,7 @@ const NavBar = () => {
             
           </NavDropdown>
           <Nav.Link href="/schedule">Schedule</Nav.Link>
-          <Nav.Link href="/soon">Leaderboard</Nav.Link>
+          <Nav.Link href="/leaderboard">Leaderboard</Nav.Link>
           <Nav.Link href="/home#Swags">Swags</Nav.Link>
           {/* <Nav.Link href="#sessions">Sessions</Nav.Link> */}
           {/* <Nav.Link href="#chalanges">Challenges</Nav.Link>
