@@ -140,7 +140,7 @@ const ShedulePage = () => {
         <Row style={{ justifyContent: "center" }}>
           <div style={{ width: "100%" }}>
             <Tabs
-              defaultActiveKey="Week1"
+              defaultActiveKey="Week2"
               id="uncontrolled-tab-example"
               className="mb-3"
             >
