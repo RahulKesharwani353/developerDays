@@ -319,9 +319,11 @@ const Track=[
       session_2_head: "Hands-on of MVVM architecture & API calling",
       session_2_detail: "Recycler View plays the major role in development of any app, it is important to learn. In this session we will build projects using Recycler and Card View.",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!",
+      challange_detail: "You have to develop an Android App with using any public API(Ex - weather API/ Meme API/News API/Cars API)",
       session_1_dates:"1 September, 2021",
-      session_2_dates:"2 September, 2021"
+      session_2_dates:"2 September, 2021",
+      challenges_date:"Submit Before, 09 September",
+      challenges_submit:"https://linktr.ee/DevDaysChallenges"
   } ,
   {
       session_1_head: "Developing Fullstack Project For Resume- Frontend [Part I]",
