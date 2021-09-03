@@ -25,6 +25,21 @@ const LeaderBoard = () => {
       } catch (error) {
         console.log(error);
       }
+
+      try {
+        await fetch(
+          "https://docs.google.com/spreadsheets/d/1MI5xdot235unbEXmJfOrMBoCfCYqWPol74xjmxrD8yM/export?format=csv&gid=1357885820"
+        )
+          .then((result) => result.text())
+          .then((csvtext) => {
+            return csv().fromString(csvtext);
+          })
+          .then((csvRow) => {
+            setUiUX(csvRow);
+          });
+      } catch (error) {
+        console.log(error);
+      }
     };
 
     getData();
@@ -104,7 +119,7 @@ const LeaderBoard = () => {
         </Row>
         <Row  style={{ fontWeight: "bold", marginTop:"20px", marginLeft:"10px" }} >
           <p>view complete points Table </p><a href="https://docs.google.com/spreadsheets/d/16wU8IICfvjI1oYFYBmqFKAF1GmyYV3uwMhik7kpwvbc/edit?usp=sharing" 
-          target="_blank" rel="noreferrer"><span/> Here </a>
+          target="_blank" rel="noreferrer">Here </a>
         </Row>
       </Container>
     </>
