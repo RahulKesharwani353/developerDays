@@ -5,7 +5,7 @@ import svg from "../assets/images/leaderboards.svg";
 
 const LeaderBoard = () => {
   var [UiUx, setUiUX] = useState("");
-  // var [android, setAndroid] = useState("");
+  var [android, setAndroid] = useState("");
   // var [web, setWeb] = useState("");
 
   useEffect(() => {
@@ -25,6 +25,21 @@ const LeaderBoard = () => {
       } catch (error) {
         console.log(error);
       }
+
+      try {
+        await fetch(
+          "https://docs.google.com/spreadsheets/d/1MI5xdot235unbEXmJfOrMBoCfCYqWPol74xjmxrD8yM/export?format=csv&gid=1357885820"
+        )
+          .then((result) => result.text())
+          .then((csvtext) => {
+            return csv().fromString(csvtext);
+          })
+          .then((csvRow) => {
+            setAndroid(csvRow);
+          });
+      } catch (error) {
+        console.log(error);
+      }
     };
 
     getData();
@@ -35,7 +50,7 @@ const LeaderBoard = () => {
       <div style={{ background: "white", padding: "20px", fontWeight:"500", color:"#707070 "}}>
         <Table borderless>
           <thead>
-            <tr style={{ border: "none" }}>
+            <tr style={{ border: "none", color: props.color }}>
               <th>Rank</th>
               <th>Name</th>
               <th>Point</th>
@@ -94,11 +109,16 @@ const LeaderBoard = () => {
       <Container>
         <Row>
           <Col >
-            <h3>UI/UX</h3>
-            <TableView data = {UiUx} setData = {setUiUX} />
+            <h3 style={{color: "#52DDDA"}}>UI/UX</h3>
+            <TableView data = {UiUx} setData = {setUiUX} color="#52DDDA" />
+          </Col>
+          <Col >
+            <h3 style={{color: "#3B478C"}}>Android Development</h3>
+            <TableView data = {android} setData = {setAndroid} color="#3B478C" />
           </Col>
         </Row>
         <Row  style={{ fontWeight: "bold", marginTop:"20px", marginLeft:"10px" }} >
+
           <p>View Complete Points-</p> <a href="https://docs.google.com/spreadsheets/d/16wU8IICfvjI1oYFYBmqFKAF1GmyYV3uwMhik7kpwvbc/edit?usp=sharing" 
           target="_blank" rel="noreferrer"> <span/> Here </a>
         </Row>
