@@ -59,9 +59,11 @@ const Track=[
         session_2_head: "Setting up Authentication using Sawo Labs API",
         session_2_detail: "Node.js is not the only thing you can do with a Web application, there are a ton more things you can do by integrating sawo lab APIs into your web application.",
         challange_head: "Challenges",
-        challange_detail: "Available Soon!",
+        challange_detail: "1. Create a simple todo application using Node.js\nIt should have the following end points\n-add - to add a TODO\n-all - to see the list of all todos",
         session_1_dates:"3 September, 2021",
-        session_2_dates:"4 September, 2021"
+        session_2_dates:"4 September, 2021",
+        challenges_date:"Submit Before 12th September, 11:59 PM IST",
+        challenges_submit:"https://linktr.ee/DevDaysChallenges"
     } ,
     {
         session_1_head: "Hands-On with SQL / MySQL  ",
@@ -326,9 +328,9 @@ const Track=[
       challenges_submit:"https://linktr.ee/DevDaysChallenges"
   } ,
   {
-      session_1_head: "Developing Fullstack Project For Resume- Frontend [Part I]",
+      session_1_head: "Developing Fullstack Project- Frontend [Part I]",
       session_1_detail: "Now we will ready to develop a major project for our resume, we will implement Material UI, and some functionality to our app.",
-      session_2_head: "Developing Fullstack Project For Resume- Frontend [Part II]",
+      session_2_head: "Developing Fullstack Project- Frontend [Part II]",
       session_2_detail: "UI plays an important role for the user experience of any app. So, we will continue our implementations of UI in our app",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
@@ -336,9 +338,9 @@ const Track=[
       session_2_dates:"9 September, 2021"
   },
   {
-      session_1_head: "Developing Fullstack Project For Resume- Backend",
+      session_1_head: "Developing Fullstack Project- Backend",
       session_1_detail: "Lets Make our app more dynamic, we will integrate Authentication System, Notification system and Connect it with Database using Firebase.",
-      session_2_head: "Developing Fullstack Project For Resume- Managing Database ",
+      session_2_head: "Developing Fullstack Project- Managing Database ",
       session_2_detail: "Let's us Invent with purpose and wrap-up all whole project, and make it as ready to deploy.",
       challange_head: "Challenges",
       challange_detail: "Available Soon!",
