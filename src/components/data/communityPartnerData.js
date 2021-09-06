@@ -51,8 +51,8 @@ const partners = [{
 
 },
 {
-    images:  require('../../assets/images/communitypartner/devscriptBlue.png').default,
-            ref: "https://devscript.org/"
+    images:  require('../../assets/images/communitypartner/Techsahe.png').default,
+            ref: "https://linktr.ee/techsahead"
 
 }
 ]
