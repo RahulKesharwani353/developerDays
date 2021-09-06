@@ -54,6 +54,10 @@ const logos=[
         {
             images: require('../../assets/images/sponsorslogo/coinswitch-kuber-original.png').default,
             ref: "https://coinswitch.co/"
+        },
+        {
+            images: require('../../assets/images/sponsorslogo/postman-logo-stacked.svg').default,
+            ref: "https://www.postman.com/"
         }
         ,
         {
