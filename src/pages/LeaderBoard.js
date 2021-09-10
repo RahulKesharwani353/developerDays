@@ -6,6 +6,7 @@ import svg from "../assets/images/leaderboards.svg";
 const LeaderBoard = () => {
   var [UiUx, setUiUX] = useState("");
   var [android, setAndroid] = useState("");
+  var [web, setWeb]= useState("");
   // var [web, setWeb] = useState("");
 
   useEffect(() => {
@@ -36,6 +37,22 @@ const LeaderBoard = () => {
           })
           .then((csvRow) => {
             setAndroid(csvRow);
+          });
+      } catch (error) {
+        console.log(error);
+      }
+      
+      
+      try {
+        await fetch(
+          "https://docs.google.com/spreadsheets/d/1MI5xdot235unbEXmJfOrMBoCfCYqWPol74xjmxrD8yM/export?format=csv&gid=261377138"
+        )
+          .then((result) => result.text())
+          .then((csvtext) => {
+            return csv().fromString(csvtext);
+          })
+          .then((csvRow) => {
+            setWeb(csvRow);
           });
       } catch (error) {
         console.log(error);
@@ -115,6 +132,10 @@ const LeaderBoard = () => {
           <Col >
             <h3 style={{color: "#3B478C"}}>Android Development</h3>
             <TableView data = {android} setData = {setAndroid} color="#3B478C" />
+          </Col>
+          <Col >
+            <h3 style={{color: "#C25E7A"}}>Web Development</h3>
+            <TableView data = {web} setData = {setWeb} color="#C25E7A" />
           </Col>
         </Row>
         <Row  style={{ fontWeight: "bold", marginTop:"20px", marginLeft:"10px" }} >
