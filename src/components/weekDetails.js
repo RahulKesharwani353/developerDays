@@ -27,21 +27,28 @@ const weekDetails = (props) => {
                     <div className={styl.weekNo}>{index+1}</div>
                   </Col>
                   <Col>
-                    <div className={styl.sessionCont}>
+                  {
+                    session_1_head &&  <div className={styl.sessionCont}>
                     <div style={{display:'flex'}}><img src={session} alt="date"/>
                     <h3 >{session_1_head}</h3></div>
                     <div className={styl.date}><img src={clnd} alt="icon"/>{session_1_dates}</div>
                     <p className={styl.challenge_detail}>{session_1_detail}</p>
                     </div>
+                  }
+                   
 
-                    <div className={styl.sessionCont}>
-                    <div style={{display:'flex'}}><img src={session} alt="date"/>
-                    <h3 style={{ whiteSpace: 'break-spaces' }}>{session_2_head}</h3></div>
-                    <div className={styl.date}><img src={clnd} alt="icon"/>{session_2_dates}</div>
-                    <p className={styl.challenge_detail}>{session_2_detail}</p>
-                    </div>
+                    {
+                      session_2_head && <div className={styl.sessionCont}>
+                      <div style={{display:'flex'}}><img src={session} alt="date"/>
+                      <h3 style={{ whiteSpace: 'break-spaces' }}>{session_2_head}</h3></div>
+                      <div className={styl.date}><img src={clnd} alt="icon"/>{session_2_dates}</div>
+                      <p className={styl.challenge_detail}>{session_2_detail}</p>
+                      </div>
+                    }
 
-                    <div className={styl.sessionCont}>
+                    {
+                      challange_detail && 
+                      <div className={styl.sessionCont}>
                     <div style={{display:'flex'}}><img src={challanges} alt="date"/>
                     <h3>{challange_head}</h3></div>
                     {
@@ -61,6 +68,7 @@ const weekDetails = (props) => {
                     </p>
                     
                     </div>
+                    }
                 </Col>
                 </Row>
               <hr/>

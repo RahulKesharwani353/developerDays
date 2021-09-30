@@ -15,7 +15,7 @@
     z-index: 5;
 }
 .float p{
-    font-size: 16px;
+    font-size: 14px;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 10px;
@@ -32,7 +32,7 @@
 .float i{
     margin-top:auto;
     margin-bottom:auto;
-    font-size:26px; 
+    font-size:23px; 
 }
 
 @media (max-width: 780px) {
@@ -49,6 +49,7 @@
         visibility: hidden;
     }
     .float i{
-        font-size: 35px;
+        font-size: 30px;
+        margin-right: 20px;
     }
 }
