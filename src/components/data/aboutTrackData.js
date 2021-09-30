@@ -71,7 +71,7 @@ const Track=[
         session_2_head: "Getting Started with MongoDB ",
         session_2_detail: "In this session, we will try to integrate MongoDB with our web application, make sure you get ready to attend",
         challange_head: "Challenges",
-        challange_detail: "Available Soon!",
+
         session_1_dates:"9 September, 2021",
         session_2_dates:"11 September, 2021"
     },
@@ -81,7 +81,7 @@ const Track=[
         session_2_head: "Getting Started with Azure",
         session_2_detail: "Let's us Invent with purpose, realise cost savings and make more efficient apps with Microsoft Azure's open and flexible cloud computing platform.",
         challange_head: "Challenges",
-        challange_detail: "Available Soon!",
+        challange_detail: "1. Create and link a assignment submission form with a database (either Relational/Non-Relational)",
         session_1_dates:"17 September, 2021",
         session_2_dates:"18 September, 2021"
     },
@@ -91,7 +91,7 @@ const Track=[
         session_2_head: "Bonus Session",
         session_2_detail: "Detail Soon",
         challange_head: "Challenges",
-        challange_detail: "Available Soon!",
+    
         session_1_dates:"24 September, 2021",
         session_2_dates:"Soon"
     }],
@@ -217,7 +217,7 @@ const Track=[
       session_2_head: "Wireframes  ",
       session_2_detail: "Low fidelity & High fidelity + Developing UI",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!",
+    
       session_1_dates:"6 September, 2021",
       session_2_dates:"7 September, 2021"
   }
@@ -227,8 +227,7 @@ const Track=[
       session_1_detail: "Converting your beautiful UI into code",
       session_2_head: " Industrial talk session ",
       session_2_detail: "Ask your doubts",
-      challange_head: "Challenges",
-      challange_detail: "Available Soon!",
+
       session_1_dates:"13 September, 2021",
       session_2_dates:"14 September, 2021"
   }],
@@ -333,7 +332,6 @@ const Track=[
       session_2_head: "Developing Fullstack Project- Frontend [Part II]",
       session_2_detail: "UI plays an important role for the user experience of any app. So, we will continue our implementations of UI in our app",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!",
       session_1_dates:"8 September, 2021",
       session_2_dates:"9 September, 2021"
   },
@@ -343,19 +341,15 @@ const Track=[
       session_2_head: "Developing Fullstack Project- Managing Database ",
       session_2_detail: "Let's us Invent with purpose and wrap-up all whole project, and make it as ready to deploy.",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!",
+      challange_detail: "- Develop any guide application (for ex: GYM Guide, City guide, Recipe Guide, etc) \n----------or------------------- \n-Todo App (you can integrate Database/ Authentication/ your innovations  )",
       session_1_dates:"15 September, 2021",
       session_2_dates:"16 September, 2021"
   },
   {
-      session_1_head: "Bonus Sessions ",
-      session_1_detail: "We have special surprise sessions for You.",
-      session_2_head: "Bonus Sessions",
-      session_2_detail: "Detail will available Soon",
+      session_1_head: "Ktor framework from the ground up",
+      session_1_detail: "Ktor is an asynchronous web framework built using Kotlin and coroutines. It enables developers to create both server and client applications targeting a variety of platforms including JVM, JavaScript, macOS, Windows, and Linux. ",
       challange_head: "Challenges",
-      challange_detail: "Available Soon!",
-      session_1_dates:"22 September, 2021",
-      session_2_dates:"23 September, 2021"
+      session_1_dates:"22 September, 2021"
   }],
   speakers: [
 {
