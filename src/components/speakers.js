@@ -101,7 +101,6 @@ const speakers = (props) => {
       }
           
         </Row>
-        <Row style={{display:'flex', justifyContent: 'center'}}> <div>More Announcing Soon...!!!</div></Row>
       </Container>
     </>
   );
