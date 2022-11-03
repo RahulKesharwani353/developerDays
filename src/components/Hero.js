@@ -37,12 +37,12 @@ const Hero = (props) => {
                   <p>Starting From 1 Aug</p>
                 </a>
               </button> */} 
-              <div 
+              {/* <div 
                 className="apply-button" 
                 data-hackathon-slug="developerdays" 
                 data-button-theme="dark-inverted"
                 style={{width:'280px'}}
-              ></div>
+              ></div> */}
               <p>August 22 - September 26, 2021</p>
             </Col>
             <Col className={styl.HeroRight}>

@@ -28,12 +28,12 @@ const LandinPage = () => {
                  It is a 5-week long event. It consists of three tracks that are Web Development, Android Development, and UI/UX Design. The event consists of various sessions and challenges. Various swags and prizes will be awarded to the winners and participants.
                  </p>
                  <div className="landingRegister">
-                 <div 
+                 {/* <div 
 	                className="apply-button" 
 	                data-hackathon-slug="developerdays" 
 	                data-button-theme="light"
                      style={{width:'280px'}}
-                ></div>
+                ></div> */}
                  </div>
                  <p>August 22 - September 26, 2021</p>
                 </div>  
