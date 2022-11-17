@@ -25,7 +25,7 @@ const LandinPage = () => {
                 <div className="landingHeading text-left">
                  <h1>Developer<br/>Days</h1>
                  <p>
-                 It is a 5-week long event. It consists of three tracks that are Web Development, Android Development, and UI/UX Design. The event consists of various sessions and challenges. Various swags and prizes will be awarded to the winners and participants.
+                 It was a 5-week event with three tracks focused on different Developments and design. The event consisted of various sessions and challenges, including lots of learning and fun.............. Soon we are coming back with New Tracks and Challenges, with a pinch of surprise for the whole developer community, so experts and newbies stay tuned..................
                  </p>
                  <div className="landingRegister">
                  {/* <div 
