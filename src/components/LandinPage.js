@@ -25,7 +25,9 @@ const LandinPage = () => {
                 <div className="landingHeading text-left">
                  <h1>Developer<br/>Days</h1>
                  <p>
-                 It was a 5-week event with three tracks focused on different Developments and design. The event consisted of various sessions and challenges, including lots of learning and fun.............. Soon we are coming back with New Tracks and Challenges, with a pinch of surprise for the whole developer community, so experts and newbies stay tuned..................
+                 Developer Days 2021 was a 5-week event with three tracks focused on different Developments and designs. It was one of its type, event focused on quick learning and implementation by learners in the 5-week long BootCamp cum Hackathon. Over 5k+ attendees registered from over 25+ countries and started their learnings along with the hands-on experience. By the end of the event, almost 1k+participants presented their projects and successfully pulled up the essence of Developer Days.
+
+To continue the legacy and build the developer community stronger, this year Developer Days team is back with “ Developer Days2.0”
                  </p>
                  <div className="landingRegister">
                  {/* <div 
